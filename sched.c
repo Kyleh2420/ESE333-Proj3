@@ -71,11 +71,39 @@ void read_file()
         arrival_time[i-i2]=0;
         printf("name: %s, service_time: %d, arrival_time: %d\n",name,atoi(service_time), atoi(arrival_time));
 
-        /* add your code here, you are to create the upcoming processes queue here.
+        /* add your code here, you are to creaxute the upcoming processes queue here.
            essentially create a node for each process and chain them in a queue.
            note this queue is *not* the process queue used for round robin scheduling
         */
+
+		struct node *tmpNode = malloc( sizeof( struct node ) );;
+		struct process *newProc = malloc( sizeof( struct process ) );
+
+		newProc -> process_ID = malloc( sizeof (50) );
+		strcpy(newProc -> process_ID, name);
+		newProc -> arrival_time = atoi(arrival_time);
+		newProc -> service_time = atoi(service_time);
+		int io = 0;
+	   
+	
+		//If there is nothing in the pending_head, then we must first add.
+		if (pending_head == NULL) {
+			pending_head = tmpNode;
+			pending_tail = tmpNode;
+			tmpNode -> p = newProc;
+			tmpNode -> next = NULL;
+		} else {
+
+		//Otherwise, if there already exists a queue, simply append to the end.
+			tmpNode -> next = NULL;
+			pending_tail ->	 next = tmpNode;
+			pending_tail = tmpNode;
+			tmpNode -> p = newProc;
+			tmpNode->next = NULL;
+
+		}
         
+
         
         
     }
@@ -296,8 +324,8 @@ void init()
 int main()
 {
 	init();
-	printf("\t*******Starting Demo*******\n");
-	demo();
+	//printf("\t*******Starting Demo*******\n");
+	//demo();
 	printf("\t*******Reading Input*******\n");
 	read_file(); 
 	
@@ -309,6 +337,60 @@ int main()
 	 * 
 	 * Repeat run_one_step() until all processes finish. Please handle memory allocation/deallocation properly so there's no leak
 	 */
+
+	//While there are still processes in the pending queue (Have not arrived yet) or the computer is still busy, run this loop
+	//On the cores: 1 is busy, 0 is waiting
+	
+	printf("\t*******Part 2*******\n");
+
+	while ((pending_head -> next != NULL && computer.time < 100)) {
+		
+		//Look at the upcoming processes' queue and check if the arrival time has passed. If not, continue on.
+		//If the process time has arrived, remove it from the arrival queue and add it to the process queue
+		while (pending_head -> p -> arrival_time <= computer.time) {
+			
+			printf("Computer Time is: %ld\n", computer.time);
+			printf("Found Process: %s\n",pending_head -> p -> process_ID);
+			
+			
+			//Add the process to the upcoming process queue
+			//If this is the first entry into the process queue
+			if (head == NULL) {
+				head = pending_head;
+				tail = pending_head;
+
+				if (pending_head -> next != NULL) {
+					pending_head = pending_head -> next;
+				} else {
+					pending_head = NULL;
+				}
+				
+				head -> next = NULL;
+			} else {
+				//Otherwise, if it is not the first entry, simply add to the tail
+				tail -> next = pending_head;
+				tail = pending_head;
+				
+				
+				if (pending_head -> next != NULL) {
+					pending_head = pending_head -> next;
+				} else {
+					pending_head = NULL;
+				}
+				tail -> next = NULL;
+			} 
+
+
+
+			
+		}
+		run_one_step();
+		
+		
+		
+
+		
+	}
 
 	
 	
