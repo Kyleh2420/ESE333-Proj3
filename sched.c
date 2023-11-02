@@ -338,18 +338,18 @@ int main()
 	 * Repeat run_one_step() until all processes finish. Please handle memory allocation/deallocation properly so there's no leak
 	 */
 
-	//While there are still processes in the pending queue (Have not arrived yet) or the computer is still busy, run this loop
-	//On the cores: 1 is busy, 0 is waiting
+	
 	
 	printf("\t*******Part 2*******\n");
-
-	while ((pending_head -> next != NULL && computer.time < 100)) {
+	//While there are still processes in the pending queue (Have not arrived yet) or the computer is still busy, run this loop
+	//On the cores: 1 is busy, 0 is waiting
+	while ((pending_head != NULL) || computer.cores[0].busy == 1 || computer.cores[1].busy == 1 || computer.cores[2].busy == 1 || computer.cores[3].busy == 1) {
 		
 		//Look at the upcoming processes' queue and check if the arrival time has passed. If not, continue on.
 		//If the process time has arrived, remove it from the arrival queue and add it to the process queue
-		while (pending_head -> p -> arrival_time <= computer.time) {
+		while (pending_head -> p -> arrival_time <= computer.time && pending_head != NULL) {
 			
-			printf("Computer Time is: %ld\n", computer.time);
+			//printf("Computer Time is: %ld\n", computer.time);
 			printf("Found Process: %s\n",pending_head -> p -> process_ID);
 			
 			
@@ -358,12 +358,7 @@ int main()
 			if (head == NULL) {
 				head = pending_head;
 				tail = pending_head;
-
-				if (pending_head -> next != NULL) {
-					pending_head = pending_head -> next;
-				} else {
-					pending_head = NULL;
-				}
+				pending_head = pending_head -> next;
 				
 				head -> next = NULL;
 			} else {
@@ -372,18 +367,20 @@ int main()
 				tail = pending_head;
 				
 				
+				
 				if (pending_head -> next != NULL) {
 					pending_head = pending_head -> next;
+					tail -> next = NULL;
 				} else {
 					pending_head = NULL;
+					break;
+					
 				}
-				tail -> next = NULL;
-			} 
-
-
-
-			
+			} 			
 		}
+
+		//Once we have added everything required at the current time, let's work on the round robin
+		
 		run_one_step();
 		
 		
