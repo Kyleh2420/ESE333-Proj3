@@ -347,11 +347,11 @@ int main()
 		
 		//Look at the upcoming processes' queue and check if the arrival time has passed. If not, continue on.
 		//If the process time has arrived, remove it from the arrival queue and add it to the process queue
-		while (pending_head -> p -> arrival_time <= computer.time && pending_head != NULL) {
+		while (pending_head != NULL && pending_head -> p -> arrival_time <= computer.time) {
 			
 			//printf("Computer Time is: %ld\n", computer.time);
 			printf("Found Process: %s\n",pending_head -> p -> process_ID);
-			
+			proc_num++;
 			
 			//Add the process to the upcoming process queue
 			//If this is the first entry into the process queue
@@ -367,7 +367,9 @@ int main()
 				tail = pending_head;
 				
 				
-				
+				//If the head can move forward, move forward.
+				//Otherwise, set the queue to null, and then leave the checking loop: there is no more to look for
+				//Also, without the break, we'll get seg faults... Seg faults everywhere...
 				if (pending_head -> next != NULL) {
 					pending_head = pending_head -> next;
 					tail -> next = NULL;
@@ -380,13 +382,41 @@ int main()
 		}
 
 		//Once we have added everything required at the current time, let's work on the round robin
-		
-		run_one_step();
-		
-		
-		
+	
+		//Check the quantum time of the process. 
 
-		
+
+		for (int i = 0; i < 4; i++) {
+
+			
+			//if there exists a currently running process, check the quantum time of the process. If it is above our set quantum, remove the process.
+			//Also check if the process itself is finished. If it is finished, remove the process.
+			if (computer.cores[i].busy == 1 && (computer.cores[i].proc_time >= quantum || computer.cores[i].p->service_time == 0)) {
+				printf("Removed process from core %d \n", i);
+				remove_proc(i);
+			}
+
+			//Once we have cleared everything, check to see if it is busy. If it is not busy, then add the process from head
+			if (computer.cores[i].busy == 0) {
+				if (head != NULL) {
+					//Add the process from the head, then remove it off the process list
+					sched_proc(head->p, i);
+					if (head -> next != NULL) {
+						struct node* tmp = head;
+						head = head -> next;
+
+						free(tmp);
+					} else {
+						head = NULL;
+					}
+					
+				}
+			}
+
+		}
+
+
+		run_one_step();
 	}
 
 	
