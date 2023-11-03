@@ -84,6 +84,7 @@ void read_file()
 		newProc -> arrival_time = atoi(arrival_time);
 		newProc -> service_time = atoi(service_time);
 		int io = 0;
+		newProc -> io = io;
 	   
 	
 		//If there is nothing in the pending_head, then we must first add.
@@ -338,7 +339,7 @@ int main()
 	 * Repeat run_one_step() until all processes finish. Please handle memory allocation/deallocation properly so there's no leak
 	 */
 
-	
+
 	
 	printf("\t*******Part 2*******\n");
 	//While there are still processes in the pending queue (Have not arrived yet) or the computer is still busy, run this loop
@@ -421,21 +422,8 @@ int main()
 	
 
 
-	//cleanup
-
-printf("\t*******Part 3*******\n");
-	init();
-	read_file();
-	computer.time = 0;
-
-	/*
-	for (int i = 0; i < 4; i++) {
-		computer.cores[i].p->io = 0;
-	}
-
-*/
 	
-	
+
 	
 	
 	
@@ -446,6 +434,14 @@ printf("\t*******Part 3*******\n");
 	 *  run processes using run_one_step_p3() so random i/o event can happen at each step on each core, 
 	 *  until all processes finish. Remember to clean up again at the end!
 	 */
+
+
+	//cleanup
+
+	printf("\t*******Part 3*******\n");
+	init();
+	read_file();
+	computer.time = 0;
 
 //Part 3 has a problem where the process is being loaded with io=32. Thus, it is getting hanged up and no processes are actually running.
 //I suspect this to be an issue when e move from the penidng_head to the head queue, but I have to investigate further
@@ -477,6 +473,7 @@ printf("\t*******Part 3*******\n");
 				//Otherwise, if it is not the first entry, simply add to the tail
 				tail -> next = pending_head;
 				tail = pending_head;
+				pending_head->p->io = 0;
 				
 				
 				//If the head can move forward, move forward.
