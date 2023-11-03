@@ -339,7 +339,6 @@ int main()
 	 * Repeat run_one_step() until all processes finish. Please handle memory allocation/deallocation properly so there's no leak
 	 */
 
-
 	
 	printf("\t*******Part 2*******\n");
 	//While there are still processes in the pending queue (Have not arrived yet) or the computer is still busy, run this loop
@@ -409,6 +408,7 @@ int main()
 						free(tmp);
 					} else {
 						head = NULL;
+						tail = NULL;
 					}
 					
 				}
@@ -422,7 +422,6 @@ int main()
 	
 
 
-	
 
 	
 	
@@ -524,6 +523,7 @@ int main()
 						free(tmp);
 					} else {
 						head = NULL;
+						tail = NULL;
 					}
 					
 				}
