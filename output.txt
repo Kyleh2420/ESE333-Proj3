@@ -1,0 +1,2381 @@
+	*******Reading Input*******
+name: t1, service_time: 20, arrival_time: 5
+name: t2, service_time: 30, arrival_time: 10
+name: t3, service_time: 40, arrival_time: 10
+name: t4, service_time: 50, arrival_time: 10
+name: t5, service_time: 60, arrival_time: 20
+name: t6, service_time: 45, arrival_time: 30
+name: t7, service_time: 90, arrival_time: 31
+name: t9, service_time: 80, arrival_time: 32
+name: t10, service_time: 85, arrival_time: 33
+name: t11, service_time: 80, arrival_time: 34
+name: t12, service_time: 50, arrival_time: 40
+name: t13, service_time: 60, arrival_time: 50
+name: t14, service_time: 67, arrival_time: 55
+name: t15, service_time: 70, arrival_time: 57
+	*******Part 2*******
+Processing all 4 cores, current Computer time=1 
+Processing all 4 cores, current Computer time=2 
+Processing all 4 cores, current Computer time=3 
+Processing all 4 cores, current Computer time=4 
+Processing all 4 cores, current Computer time=5 
+Found Process: t1
+Process[t1] with service_time 20 has been added to core 0
+Processing all 4 cores, current Computer time=6 
+Core[0]: t1, service_time= 19,been on core for: 1 
+Processing all 4 cores, current Computer time=7 
+Core[0]: t1, service_time= 18,been on core for: 2 
+Processing all 4 cores, current Computer time=8 
+Core[0]: t1, service_time= 17,been on core for: 3 
+Processing all 4 cores, current Computer time=9 
+Core[0]: t1, service_time= 16,been on core for: 4 
+Processing all 4 cores, current Computer time=10 
+Core[0]: t1, service_time= 15,been on core for: 5 
+Found Process: t2
+Found Process: t3
+Found Process: t4
+Process[t2] with service_time 30 has been added to core 1
+Process[t3] with service_time 40 has been added to core 2
+Process[t4] with service_time 50 has been added to core 3
+Processing all 4 cores, current Computer time=11 
+Core[0]: t1, service_time= 14,been on core for: 6 
+Core[1]: t2, service_time= 29,been on core for: 1 
+Core[2]: t3, service_time= 39,been on core for: 1 
+Core[3]: t4, service_time= 49,been on core for: 1 
+Processing all 4 cores, current Computer time=12 
+Core[0]: t1, service_time= 13,been on core for: 7 
+Core[1]: t2, service_time= 28,been on core for: 2 
+Core[2]: t3, service_time= 38,been on core for: 2 
+Core[3]: t4, service_time= 48,been on core for: 2 
+Processing all 4 cores, current Computer time=13 
+Core[0]: t1, service_time= 12,been on core for: 8 
+Core[1]: t2, service_time= 27,been on core for: 3 
+Core[2]: t3, service_time= 37,been on core for: 3 
+Core[3]: t4, service_time= 47,been on core for: 3 
+Processing all 4 cores, current Computer time=14 
+Core[0]: t1, service_time= 11,been on core for: 9 
+Core[1]: t2, service_time= 26,been on core for: 4 
+Core[2]: t3, service_time= 36,been on core for: 4 
+Core[3]: t4, service_time= 46,been on core for: 4 
+Processing all 4 cores, current Computer time=15 
+Core[0]: t1, service_time= 10,been on core for: 10 
+Core[1]: t2, service_time= 25,been on core for: 5 
+Core[2]: t3, service_time= 35,been on core for: 5 
+Core[3]: t4, service_time= 45,been on core for: 5 
+Processing all 4 cores, current Computer time=16 
+Core[0]: t1, service_time= 9,been on core for: 11 
+Core[1]: t2, service_time= 24,been on core for: 6 
+Core[2]: t3, service_time= 34,been on core for: 6 
+Core[3]: t4, service_time= 44,been on core for: 6 
+Processing all 4 cores, current Computer time=17 
+Core[0]: t1, service_time= 8,been on core for: 12 
+Core[1]: t2, service_time= 23,been on core for: 7 
+Core[2]: t3, service_time= 33,been on core for: 7 
+Core[3]: t4, service_time= 43,been on core for: 7 
+Processing all 4 cores, current Computer time=18 
+Core[0]: t1, service_time= 7,been on core for: 13 
+Core[1]: t2, service_time= 22,been on core for: 8 
+Core[2]: t3, service_time= 32,been on core for: 8 
+Core[3]: t4, service_time= 42,been on core for: 8 
+Processing all 4 cores, current Computer time=19 
+Core[0]: t1, service_time= 6,been on core for: 14 
+Core[1]: t2, service_time= 21,been on core for: 9 
+Core[2]: t3, service_time= 31,been on core for: 9 
+Core[3]: t4, service_time= 41,been on core for: 9 
+Processing all 4 cores, current Computer time=20 
+Core[0]: t1, service_time= 5,been on core for: 15 
+Core[1]: t2, service_time= 20,been on core for: 10 
+Core[2]: t3, service_time= 30,been on core for: 10 
+Core[3]: t4, service_time= 40,been on core for: 10 
+Found Process: t5
+Processing all 4 cores, current Computer time=21 
+Core[0]: t1, service_time= 4,been on core for: 16 
+Core[1]: t2, service_time= 19,been on core for: 11 
+Core[2]: t3, service_time= 29,been on core for: 11 
+Core[3]: t4, service_time= 39,been on core for: 11 
+Processing all 4 cores, current Computer time=22 
+Core[0]: t1, service_time= 3,been on core for: 17 
+Core[1]: t2, service_time= 18,been on core for: 12 
+Core[2]: t3, service_time= 28,been on core for: 12 
+Core[3]: t4, service_time= 38,been on core for: 12 
+Processing all 4 cores, current Computer time=23 
+Core[0]: t1, service_time= 2,been on core for: 18 
+Core[1]: t2, service_time= 17,been on core for: 13 
+Core[2]: t3, service_time= 27,been on core for: 13 
+Core[3]: t4, service_time= 37,been on core for: 13 
+Processing all 4 cores, current Computer time=24 
+Core[0]: t1, service_time= 1,been on core for: 19 
+Core[1]: t2, service_time= 16,been on core for: 14 
+Core[2]: t3, service_time= 26,been on core for: 14 
+Core[3]: t4, service_time= 36,been on core for: 14 
+Processing all 4 cores, current Computer time=25 
+Core[0]: t1, service_time= 0,been on core for: 20 
+Core[1]: t2, service_time= 15,been on core for: 15 
+Core[2]: t3, service_time= 25,been on core for: 15 
+Core[3]: t4, service_time= 35,been on core for: 15 
+Removed process from core 0 
+Process[t1] at core 0 has been removed from core with remaining service_time=0
+Process[t5] with service_time 60 has been added to core 0
+Processing all 4 cores, current Computer time=26 
+Core[0]: t5, service_time= 59,been on core for: 1 
+Core[1]: t2, service_time= 14,been on core for: 16 
+Core[2]: t3, service_time= 24,been on core for: 16 
+Core[3]: t4, service_time= 34,been on core for: 16 
+Processing all 4 cores, current Computer time=27 
+Core[0]: t5, service_time= 58,been on core for: 2 
+Core[1]: t2, service_time= 13,been on core for: 17 
+Core[2]: t3, service_time= 23,been on core for: 17 
+Core[3]: t4, service_time= 33,been on core for: 17 
+Processing all 4 cores, current Computer time=28 
+Core[0]: t5, service_time= 57,been on core for: 3 
+Core[1]: t2, service_time= 12,been on core for: 18 
+Core[2]: t3, service_time= 22,been on core for: 18 
+Core[3]: t4, service_time= 32,been on core for: 18 
+Processing all 4 cores, current Computer time=29 
+Core[0]: t5, service_time= 56,been on core for: 4 
+Core[1]: t2, service_time= 11,been on core for: 19 
+Core[2]: t3, service_time= 21,been on core for: 19 
+Core[3]: t4, service_time= 31,been on core for: 19 
+Processing all 4 cores, current Computer time=30 
+Core[0]: t5, service_time= 55,been on core for: 5 
+Core[1]: t2, service_time= 10,been on core for: 20 
+Core[2]: t3, service_time= 20,been on core for: 20 
+Core[3]: t4, service_time= 30,been on core for: 20 
+Found Process: t6
+Removed process from core 1 
+Process[t2] at core 1 has been removed from core with remaining service_time=10
+Process[t6] with service_time 45 has been added to core 1
+Removed process from core 2 
+Process[t3] at core 2 has been removed from core with remaining service_time=20
+Process[t2] with service_time 10 has been added to core 2
+Removed process from core 3 
+Process[t4] at core 3 has been removed from core with remaining service_time=30
+Process[t3] with service_time 20 has been added to core 3
+Processing all 4 cores, current Computer time=31 
+Core[0]: t5, service_time= 54,been on core for: 6 
+Core[1]: t6, service_time= 44,been on core for: 1 
+Core[2]: t2, service_time= 9,been on core for: 1 
+Core[3]: t3, service_time= 19,been on core for: 1 
+Found Process: t7
+Processing all 4 cores, current Computer time=32 
+Core[0]: t5, service_time= 53,been on core for: 7 
+Core[1]: t6, service_time= 43,been on core for: 2 
+Core[2]: t2, service_time= 8,been on core for: 2 
+Core[3]: t3, service_time= 18,been on core for: 2 
+Found Process: t9
+Processing all 4 cores, current Computer time=33 
+Core[0]: t5, service_time= 52,been on core for: 8 
+Core[1]: t6, service_time= 42,been on core for: 3 
+Core[2]: t2, service_time= 7,been on core for: 3 
+Core[3]: t3, service_time= 17,been on core for: 3 
+Found Process: t10
+Processing all 4 cores, current Computer time=34 
+Core[0]: t5, service_time= 51,been on core for: 9 
+Core[1]: t6, service_time= 41,been on core for: 4 
+Core[2]: t2, service_time= 6,been on core for: 4 
+Core[3]: t3, service_time= 16,been on core for: 4 
+Found Process: t11
+Processing all 4 cores, current Computer time=35 
+Core[0]: t5, service_time= 50,been on core for: 10 
+Core[1]: t6, service_time= 40,been on core for: 5 
+Core[2]: t2, service_time= 5,been on core for: 5 
+Core[3]: t3, service_time= 15,been on core for: 5 
+Processing all 4 cores, current Computer time=36 
+Core[0]: t5, service_time= 49,been on core for: 11 
+Core[1]: t6, service_time= 39,been on core for: 6 
+Core[2]: t2, service_time= 4,been on core for: 6 
+Core[3]: t3, service_time= 14,been on core for: 6 
+Processing all 4 cores, current Computer time=37 
+Core[0]: t5, service_time= 48,been on core for: 12 
+Core[1]: t6, service_time= 38,been on core for: 7 
+Core[2]: t2, service_time= 3,been on core for: 7 
+Core[3]: t3, service_time= 13,been on core for: 7 
+Processing all 4 cores, current Computer time=38 
+Core[0]: t5, service_time= 47,been on core for: 13 
+Core[1]: t6, service_time= 37,been on core for: 8 
+Core[2]: t2, service_time= 2,been on core for: 8 
+Core[3]: t3, service_time= 12,been on core for: 8 
+Processing all 4 cores, current Computer time=39 
+Core[0]: t5, service_time= 46,been on core for: 14 
+Core[1]: t6, service_time= 36,been on core for: 9 
+Core[2]: t2, service_time= 1,been on core for: 9 
+Core[3]: t3, service_time= 11,been on core for: 9 
+Processing all 4 cores, current Computer time=40 
+Core[0]: t5, service_time= 45,been on core for: 15 
+Core[1]: t6, service_time= 35,been on core for: 10 
+Core[2]: t2, service_time= 0,been on core for: 10 
+Core[3]: t3, service_time= 10,been on core for: 10 
+Found Process: t12
+Removed process from core 2 
+Process[t2] at core 2 has been removed from core with remaining service_time=0
+Process[t4] with service_time 30 has been added to core 2
+Processing all 4 cores, current Computer time=41 
+Core[0]: t5, service_time= 44,been on core for: 16 
+Core[1]: t6, service_time= 34,been on core for: 11 
+Core[2]: t4, service_time= 29,been on core for: 1 
+Core[3]: t3, service_time= 9,been on core for: 11 
+Processing all 4 cores, current Computer time=42 
+Core[0]: t5, service_time= 43,been on core for: 17 
+Core[1]: t6, service_time= 33,been on core for: 12 
+Core[2]: t4, service_time= 28,been on core for: 2 
+Core[3]: t3, service_time= 8,been on core for: 12 
+Processing all 4 cores, current Computer time=43 
+Core[0]: t5, service_time= 42,been on core for: 18 
+Core[1]: t6, service_time= 32,been on core for: 13 
+Core[2]: t4, service_time= 27,been on core for: 3 
+Core[3]: t3, service_time= 7,been on core for: 13 
+Processing all 4 cores, current Computer time=44 
+Core[0]: t5, service_time= 41,been on core for: 19 
+Core[1]: t6, service_time= 31,been on core for: 14 
+Core[2]: t4, service_time= 26,been on core for: 4 
+Core[3]: t3, service_time= 6,been on core for: 14 
+Processing all 4 cores, current Computer time=45 
+Core[0]: t5, service_time= 40,been on core for: 20 
+Core[1]: t6, service_time= 30,been on core for: 15 
+Core[2]: t4, service_time= 25,been on core for: 5 
+Core[3]: t3, service_time= 5,been on core for: 15 
+Removed process from core 0 
+Process[t5] at core 0 has been removed from core with remaining service_time=40
+Process[t7] with service_time 90 has been added to core 0
+Processing all 4 cores, current Computer time=46 
+Core[0]: t7, service_time= 89,been on core for: 1 
+Core[1]: t6, service_time= 29,been on core for: 16 
+Core[2]: t4, service_time= 24,been on core for: 6 
+Core[3]: t3, service_time= 4,been on core for: 16 
+Processing all 4 cores, current Computer time=47 
+Core[0]: t7, service_time= 88,been on core for: 2 
+Core[1]: t6, service_time= 28,been on core for: 17 
+Core[2]: t4, service_time= 23,been on core for: 7 
+Core[3]: t3, service_time= 3,been on core for: 17 
+Processing all 4 cores, current Computer time=48 
+Core[0]: t7, service_time= 87,been on core for: 3 
+Core[1]: t6, service_time= 27,been on core for: 18 
+Core[2]: t4, service_time= 22,been on core for: 8 
+Core[3]: t3, service_time= 2,been on core for: 18 
+Processing all 4 cores, current Computer time=49 
+Core[0]: t7, service_time= 86,been on core for: 4 
+Core[1]: t6, service_time= 26,been on core for: 19 
+Core[2]: t4, service_time= 21,been on core for: 9 
+Core[3]: t3, service_time= 1,been on core for: 19 
+Processing all 4 cores, current Computer time=50 
+Core[0]: t7, service_time= 85,been on core for: 5 
+Core[1]: t6, service_time= 25,been on core for: 20 
+Core[2]: t4, service_time= 20,been on core for: 10 
+Core[3]: t3, service_time= 0,been on core for: 20 
+Found Process: t13
+Removed process from core 1 
+Process[t6] at core 1 has been removed from core with remaining service_time=25
+Process[t9] with service_time 80 has been added to core 1
+Removed process from core 3 
+Process[t3] at core 3 has been removed from core with remaining service_time=0
+Process[t10] with service_time 85 has been added to core 3
+Processing all 4 cores, current Computer time=51 
+Core[0]: t7, service_time= 84,been on core for: 6 
+Core[1]: t9, service_time= 79,been on core for: 1 
+Core[2]: t4, service_time= 19,been on core for: 11 
+Core[3]: t10, service_time= 84,been on core for: 1 
+Processing all 4 cores, current Computer time=52 
+Core[0]: t7, service_time= 83,been on core for: 7 
+Core[1]: t9, service_time= 78,been on core for: 2 
+Core[2]: t4, service_time= 18,been on core for: 12 
+Core[3]: t10, service_time= 83,been on core for: 2 
+Processing all 4 cores, current Computer time=53 
+Core[0]: t7, service_time= 82,been on core for: 8 
+Core[1]: t9, service_time= 77,been on core for: 3 
+Core[2]: t4, service_time= 17,been on core for: 13 
+Core[3]: t10, service_time= 82,been on core for: 3 
+Processing all 4 cores, current Computer time=54 
+Core[0]: t7, service_time= 81,been on core for: 9 
+Core[1]: t9, service_time= 76,been on core for: 4 
+Core[2]: t4, service_time= 16,been on core for: 14 
+Core[3]: t10, service_time= 81,been on core for: 4 
+Processing all 4 cores, current Computer time=55 
+Core[0]: t7, service_time= 80,been on core for: 10 
+Core[1]: t9, service_time= 75,been on core for: 5 
+Core[2]: t4, service_time= 15,been on core for: 15 
+Core[3]: t10, service_time= 80,been on core for: 5 
+Found Process: t14
+Processing all 4 cores, current Computer time=56 
+Core[0]: t7, service_time= 79,been on core for: 11 
+Core[1]: t9, service_time= 74,been on core for: 6 
+Core[2]: t4, service_time= 14,been on core for: 16 
+Core[3]: t10, service_time= 79,been on core for: 6 
+Processing all 4 cores, current Computer time=57 
+Core[0]: t7, service_time= 78,been on core for: 12 
+Core[1]: t9, service_time= 73,been on core for: 7 
+Core[2]: t4, service_time= 13,been on core for: 17 
+Core[3]: t10, service_time= 78,been on core for: 7 
+Found Process: t15
+Processing all 4 cores, current Computer time=58 
+Core[0]: t7, service_time= 77,been on core for: 13 
+Core[1]: t9, service_time= 72,been on core for: 8 
+Core[2]: t4, service_time= 12,been on core for: 18 
+Core[3]: t10, service_time= 77,been on core for: 8 
+Processing all 4 cores, current Computer time=59 
+Core[0]: t7, service_time= 76,been on core for: 14 
+Core[1]: t9, service_time= 71,been on core for: 9 
+Core[2]: t4, service_time= 11,been on core for: 19 
+Core[3]: t10, service_time= 76,been on core for: 9 
+Processing all 4 cores, current Computer time=60 
+Core[0]: t7, service_time= 75,been on core for: 15 
+Core[1]: t9, service_time= 70,been on core for: 10 
+Core[2]: t4, service_time= 10,been on core for: 20 
+Core[3]: t10, service_time= 75,been on core for: 10 
+Removed process from core 2 
+Process[t4] at core 2 has been removed from core with remaining service_time=10
+Process[t11] with service_time 80 has been added to core 2
+Processing all 4 cores, current Computer time=61 
+Core[0]: t7, service_time= 74,been on core for: 16 
+Core[1]: t9, service_time= 69,been on core for: 11 
+Core[2]: t11, service_time= 79,been on core for: 1 
+Core[3]: t10, service_time= 74,been on core for: 11 
+Processing all 4 cores, current Computer time=62 
+Core[0]: t7, service_time= 73,been on core for: 17 
+Core[1]: t9, service_time= 68,been on core for: 12 
+Core[2]: t11, service_time= 78,been on core for: 2 
+Core[3]: t10, service_time= 73,been on core for: 12 
+Processing all 4 cores, current Computer time=63 
+Core[0]: t7, service_time= 72,been on core for: 18 
+Core[1]: t9, service_time= 67,been on core for: 13 
+Core[2]: t11, service_time= 77,been on core for: 3 
+Core[3]: t10, service_time= 72,been on core for: 13 
+Processing all 4 cores, current Computer time=64 
+Core[0]: t7, service_time= 71,been on core for: 19 
+Core[1]: t9, service_time= 66,been on core for: 14 
+Core[2]: t11, service_time= 76,been on core for: 4 
+Core[3]: t10, service_time= 71,been on core for: 14 
+Processing all 4 cores, current Computer time=65 
+Core[0]: t7, service_time= 70,been on core for: 20 
+Core[1]: t9, service_time= 65,been on core for: 15 
+Core[2]: t11, service_time= 75,been on core for: 5 
+Core[3]: t10, service_time= 70,been on core for: 15 
+Removed process from core 0 
+Process[t7] at core 0 has been removed from core with remaining service_time=70
+Process[t12] with service_time 50 has been added to core 0
+Processing all 4 cores, current Computer time=66 
+Core[0]: t12, service_time= 49,been on core for: 1 
+Core[1]: t9, service_time= 64,been on core for: 16 
+Core[2]: t11, service_time= 74,been on core for: 6 
+Core[3]: t10, service_time= 69,been on core for: 16 
+Processing all 4 cores, current Computer time=67 
+Core[0]: t12, service_time= 48,been on core for: 2 
+Core[1]: t9, service_time= 63,been on core for: 17 
+Core[2]: t11, service_time= 73,been on core for: 7 
+Core[3]: t10, service_time= 68,been on core for: 17 
+Processing all 4 cores, current Computer time=68 
+Core[0]: t12, service_time= 47,been on core for: 3 
+Core[1]: t9, service_time= 62,been on core for: 18 
+Core[2]: t11, service_time= 72,been on core for: 8 
+Core[3]: t10, service_time= 67,been on core for: 18 
+Processing all 4 cores, current Computer time=69 
+Core[0]: t12, service_time= 46,been on core for: 4 
+Core[1]: t9, service_time= 61,been on core for: 19 
+Core[2]: t11, service_time= 71,been on core for: 9 
+Core[3]: t10, service_time= 66,been on core for: 19 
+Processing all 4 cores, current Computer time=70 
+Core[0]: t12, service_time= 45,been on core for: 5 
+Core[1]: t9, service_time= 60,been on core for: 20 
+Core[2]: t11, service_time= 70,been on core for: 10 
+Core[3]: t10, service_time= 65,been on core for: 20 
+Removed process from core 1 
+Process[t9] at core 1 has been removed from core with remaining service_time=60
+Process[t5] with service_time 40 has been added to core 1
+Removed process from core 3 
+Process[t10] at core 3 has been removed from core with remaining service_time=65
+Process[t13] with service_time 60 has been added to core 3
+Processing all 4 cores, current Computer time=71 
+Core[0]: t12, service_time= 44,been on core for: 6 
+Core[1]: t5, service_time= 39,been on core for: 1 
+Core[2]: t11, service_time= 69,been on core for: 11 
+Core[3]: t13, service_time= 59,been on core for: 1 
+Processing all 4 cores, current Computer time=72 
+Core[0]: t12, service_time= 43,been on core for: 7 
+Core[1]: t5, service_time= 38,been on core for: 2 
+Core[2]: t11, service_time= 68,been on core for: 12 
+Core[3]: t13, service_time= 58,been on core for: 2 
+Processing all 4 cores, current Computer time=73 
+Core[0]: t12, service_time= 42,been on core for: 8 
+Core[1]: t5, service_time= 37,been on core for: 3 
+Core[2]: t11, service_time= 67,been on core for: 13 
+Core[3]: t13, service_time= 57,been on core for: 3 
+Processing all 4 cores, current Computer time=74 
+Core[0]: t12, service_time= 41,been on core for: 9 
+Core[1]: t5, service_time= 36,been on core for: 4 
+Core[2]: t11, service_time= 66,been on core for: 14 
+Core[3]: t13, service_time= 56,been on core for: 4 
+Processing all 4 cores, current Computer time=75 
+Core[0]: t12, service_time= 40,been on core for: 10 
+Core[1]: t5, service_time= 35,been on core for: 5 
+Core[2]: t11, service_time= 65,been on core for: 15 
+Core[3]: t13, service_time= 55,been on core for: 5 
+Processing all 4 cores, current Computer time=76 
+Core[0]: t12, service_time= 39,been on core for: 11 
+Core[1]: t5, service_time= 34,been on core for: 6 
+Core[2]: t11, service_time= 64,been on core for: 16 
+Core[3]: t13, service_time= 54,been on core for: 6 
+Processing all 4 cores, current Computer time=77 
+Core[0]: t12, service_time= 38,been on core for: 12 
+Core[1]: t5, service_time= 33,been on core for: 7 
+Core[2]: t11, service_time= 63,been on core for: 17 
+Core[3]: t13, service_time= 53,been on core for: 7 
+Processing all 4 cores, current Computer time=78 
+Core[0]: t12, service_time= 37,been on core for: 13 
+Core[1]: t5, service_time= 32,been on core for: 8 
+Core[2]: t11, service_time= 62,been on core for: 18 
+Core[3]: t13, service_time= 52,been on core for: 8 
+Processing all 4 cores, current Computer time=79 
+Core[0]: t12, service_time= 36,been on core for: 14 
+Core[1]: t5, service_time= 31,been on core for: 9 
+Core[2]: t11, service_time= 61,been on core for: 19 
+Core[3]: t13, service_time= 51,been on core for: 9 
+Processing all 4 cores, current Computer time=80 
+Core[0]: t12, service_time= 35,been on core for: 15 
+Core[1]: t5, service_time= 30,been on core for: 10 
+Core[2]: t11, service_time= 60,been on core for: 20 
+Core[3]: t13, service_time= 50,been on core for: 10 
+Removed process from core 2 
+Process[t11] at core 2 has been removed from core with remaining service_time=60
+Process[t6] with service_time 25 has been added to core 2
+Processing all 4 cores, current Computer time=81 
+Core[0]: t12, service_time= 34,been on core for: 16 
+Core[1]: t5, service_time= 29,been on core for: 11 
+Core[2]: t6, service_time= 24,been on core for: 1 
+Core[3]: t13, service_time= 49,been on core for: 11 
+Processing all 4 cores, current Computer time=82 
+Core[0]: t12, service_time= 33,been on core for: 17 
+Core[1]: t5, service_time= 28,been on core for: 12 
+Core[2]: t6, service_time= 23,been on core for: 2 
+Core[3]: t13, service_time= 48,been on core for: 12 
+Processing all 4 cores, current Computer time=83 
+Core[0]: t12, service_time= 32,been on core for: 18 
+Core[1]: t5, service_time= 27,been on core for: 13 
+Core[2]: t6, service_time= 22,been on core for: 3 
+Core[3]: t13, service_time= 47,been on core for: 13 
+Processing all 4 cores, current Computer time=84 
+Core[0]: t12, service_time= 31,been on core for: 19 
+Core[1]: t5, service_time= 26,been on core for: 14 
+Core[2]: t6, service_time= 21,been on core for: 4 
+Core[3]: t13, service_time= 46,been on core for: 14 
+Processing all 4 cores, current Computer time=85 
+Core[0]: t12, service_time= 30,been on core for: 20 
+Core[1]: t5, service_time= 25,been on core for: 15 
+Core[2]: t6, service_time= 20,been on core for: 5 
+Core[3]: t13, service_time= 45,been on core for: 15 
+Removed process from core 0 
+Process[t12] at core 0 has been removed from core with remaining service_time=30
+Process[t14] with service_time 67 has been added to core 0
+Processing all 4 cores, current Computer time=86 
+Core[0]: t14, service_time= 66,been on core for: 1 
+Core[1]: t5, service_time= 24,been on core for: 16 
+Core[2]: t6, service_time= 19,been on core for: 6 
+Core[3]: t13, service_time= 44,been on core for: 16 
+Processing all 4 cores, current Computer time=87 
+Core[0]: t14, service_time= 65,been on core for: 2 
+Core[1]: t5, service_time= 23,been on core for: 17 
+Core[2]: t6, service_time= 18,been on core for: 7 
+Core[3]: t13, service_time= 43,been on core for: 17 
+Processing all 4 cores, current Computer time=88 
+Core[0]: t14, service_time= 64,been on core for: 3 
+Core[1]: t5, service_time= 22,been on core for: 18 
+Core[2]: t6, service_time= 17,been on core for: 8 
+Core[3]: t13, service_time= 42,been on core for: 18 
+Processing all 4 cores, current Computer time=89 
+Core[0]: t14, service_time= 63,been on core for: 4 
+Core[1]: t5, service_time= 21,been on core for: 19 
+Core[2]: t6, service_time= 16,been on core for: 9 
+Core[3]: t13, service_time= 41,been on core for: 19 
+Processing all 4 cores, current Computer time=90 
+Core[0]: t14, service_time= 62,been on core for: 5 
+Core[1]: t5, service_time= 20,been on core for: 20 
+Core[2]: t6, service_time= 15,been on core for: 10 
+Core[3]: t13, service_time= 40,been on core for: 20 
+Removed process from core 1 
+Process[t5] at core 1 has been removed from core with remaining service_time=20
+Process[t15] with service_time 70 has been added to core 1
+Removed process from core 3 
+Process[t13] at core 3 has been removed from core with remaining service_time=40
+Process[t4] with service_time 10 has been added to core 3
+Processing all 4 cores, current Computer time=91 
+Core[0]: t14, service_time= 61,been on core for: 6 
+Core[1]: t15, service_time= 69,been on core for: 1 
+Core[2]: t6, service_time= 14,been on core for: 11 
+Core[3]: t4, service_time= 9,been on core for: 1 
+Processing all 4 cores, current Computer time=92 
+Core[0]: t14, service_time= 60,been on core for: 7 
+Core[1]: t15, service_time= 68,been on core for: 2 
+Core[2]: t6, service_time= 13,been on core for: 12 
+Core[3]: t4, service_time= 8,been on core for: 2 
+Processing all 4 cores, current Computer time=93 
+Core[0]: t14, service_time= 59,been on core for: 8 
+Core[1]: t15, service_time= 67,been on core for: 3 
+Core[2]: t6, service_time= 12,been on core for: 13 
+Core[3]: t4, service_time= 7,been on core for: 3 
+Processing all 4 cores, current Computer time=94 
+Core[0]: t14, service_time= 58,been on core for: 9 
+Core[1]: t15, service_time= 66,been on core for: 4 
+Core[2]: t6, service_time= 11,been on core for: 14 
+Core[3]: t4, service_time= 6,been on core for: 4 
+Processing all 4 cores, current Computer time=95 
+Core[0]: t14, service_time= 57,been on core for: 10 
+Core[1]: t15, service_time= 65,been on core for: 5 
+Core[2]: t6, service_time= 10,been on core for: 15 
+Core[3]: t4, service_time= 5,been on core for: 5 
+Processing all 4 cores, current Computer time=96 
+Core[0]: t14, service_time= 56,been on core for: 11 
+Core[1]: t15, service_time= 64,been on core for: 6 
+Core[2]: t6, service_time= 9,been on core for: 16 
+Core[3]: t4, service_time= 4,been on core for: 6 
+Processing all 4 cores, current Computer time=97 
+Core[0]: t14, service_time= 55,been on core for: 12 
+Core[1]: t15, service_time= 63,been on core for: 7 
+Core[2]: t6, service_time= 8,been on core for: 17 
+Core[3]: t4, service_time= 3,been on core for: 7 
+Processing all 4 cores, current Computer time=98 
+Core[0]: t14, service_time= 54,been on core for: 13 
+Core[1]: t15, service_time= 62,been on core for: 8 
+Core[2]: t6, service_time= 7,been on core for: 18 
+Core[3]: t4, service_time= 2,been on core for: 8 
+Processing all 4 cores, current Computer time=99 
+Core[0]: t14, service_time= 53,been on core for: 14 
+Core[1]: t15, service_time= 61,been on core for: 9 
+Core[2]: t6, service_time= 6,been on core for: 19 
+Core[3]: t4, service_time= 1,been on core for: 9 
+Processing all 4 cores, current Computer time=100 
+Core[0]: t14, service_time= 52,been on core for: 15 
+Core[1]: t15, service_time= 60,been on core for: 10 
+Core[2]: t6, service_time= 5,been on core for: 20 
+Core[3]: t4, service_time= 0,been on core for: 10 
+Removed process from core 2 
+Process[t6] at core 2 has been removed from core with remaining service_time=5
+Process[t7] with service_time 70 has been added to core 2
+Removed process from core 3 
+Process[t4] at core 3 has been removed from core with remaining service_time=0
+Process[t9] with service_time 60 has been added to core 3
+Processing all 4 cores, current Computer time=101 
+Core[0]: t14, service_time= 51,been on core for: 16 
+Core[1]: t15, service_time= 59,been on core for: 11 
+Core[2]: t7, service_time= 69,been on core for: 1 
+Core[3]: t9, service_time= 59,been on core for: 1 
+Processing all 4 cores, current Computer time=102 
+Core[0]: t14, service_time= 50,been on core for: 17 
+Core[1]: t15, service_time= 58,been on core for: 12 
+Core[2]: t7, service_time= 68,been on core for: 2 
+Core[3]: t9, service_time= 58,been on core for: 2 
+Processing all 4 cores, current Computer time=103 
+Core[0]: t14, service_time= 49,been on core for: 18 
+Core[1]: t15, service_time= 57,been on core for: 13 
+Core[2]: t7, service_time= 67,been on core for: 3 
+Core[3]: t9, service_time= 57,been on core for: 3 
+Processing all 4 cores, current Computer time=104 
+Core[0]: t14, service_time= 48,been on core for: 19 
+Core[1]: t15, service_time= 56,been on core for: 14 
+Core[2]: t7, service_time= 66,been on core for: 4 
+Core[3]: t9, service_time= 56,been on core for: 4 
+Processing all 4 cores, current Computer time=105 
+Core[0]: t14, service_time= 47,been on core for: 20 
+Core[1]: t15, service_time= 55,been on core for: 15 
+Core[2]: t7, service_time= 65,been on core for: 5 
+Core[3]: t9, service_time= 55,been on core for: 5 
+Removed process from core 0 
+Process[t14] at core 0 has been removed from core with remaining service_time=47
+Process[t10] with service_time 65 has been added to core 0
+Processing all 4 cores, current Computer time=106 
+Core[0]: t10, service_time= 64,been on core for: 1 
+Core[1]: t15, service_time= 54,been on core for: 16 
+Core[2]: t7, service_time= 64,been on core for: 6 
+Core[3]: t9, service_time= 54,been on core for: 6 
+Processing all 4 cores, current Computer time=107 
+Core[0]: t10, service_time= 63,been on core for: 2 
+Core[1]: t15, service_time= 53,been on core for: 17 
+Core[2]: t7, service_time= 63,been on core for: 7 
+Core[3]: t9, service_time= 53,been on core for: 7 
+Processing all 4 cores, current Computer time=108 
+Core[0]: t10, service_time= 62,been on core for: 3 
+Core[1]: t15, service_time= 52,been on core for: 18 
+Core[2]: t7, service_time= 62,been on core for: 8 
+Core[3]: t9, service_time= 52,been on core for: 8 
+Processing all 4 cores, current Computer time=109 
+Core[0]: t10, service_time= 61,been on core for: 4 
+Core[1]: t15, service_time= 51,been on core for: 19 
+Core[2]: t7, service_time= 61,been on core for: 9 
+Core[3]: t9, service_time= 51,been on core for: 9 
+Processing all 4 cores, current Computer time=110 
+Core[0]: t10, service_time= 60,been on core for: 5 
+Core[1]: t15, service_time= 50,been on core for: 20 
+Core[2]: t7, service_time= 60,been on core for: 10 
+Core[3]: t9, service_time= 50,been on core for: 10 
+Removed process from core 1 
+Process[t15] at core 1 has been removed from core with remaining service_time=50
+Process[t11] with service_time 60 has been added to core 1
+Processing all 4 cores, current Computer time=111 
+Core[0]: t10, service_time= 59,been on core for: 6 
+Core[1]: t11, service_time= 59,been on core for: 1 
+Core[2]: t7, service_time= 59,been on core for: 11 
+Core[3]: t9, service_time= 49,been on core for: 11 
+Processing all 4 cores, current Computer time=112 
+Core[0]: t10, service_time= 58,been on core for: 7 
+Core[1]: t11, service_time= 58,been on core for: 2 
+Core[2]: t7, service_time= 58,been on core for: 12 
+Core[3]: t9, service_time= 48,been on core for: 12 
+Processing all 4 cores, current Computer time=113 
+Core[0]: t10, service_time= 57,been on core for: 8 
+Core[1]: t11, service_time= 57,been on core for: 3 
+Core[2]: t7, service_time= 57,been on core for: 13 
+Core[3]: t9, service_time= 47,been on core for: 13 
+Processing all 4 cores, current Computer time=114 
+Core[0]: t10, service_time= 56,been on core for: 9 
+Core[1]: t11, service_time= 56,been on core for: 4 
+Core[2]: t7, service_time= 56,been on core for: 14 
+Core[3]: t9, service_time= 46,been on core for: 14 
+Processing all 4 cores, current Computer time=115 
+Core[0]: t10, service_time= 55,been on core for: 10 
+Core[1]: t11, service_time= 55,been on core for: 5 
+Core[2]: t7, service_time= 55,been on core for: 15 
+Core[3]: t9, service_time= 45,been on core for: 15 
+Processing all 4 cores, current Computer time=116 
+Core[0]: t10, service_time= 54,been on core for: 11 
+Core[1]: t11, service_time= 54,been on core for: 6 
+Core[2]: t7, service_time= 54,been on core for: 16 
+Core[3]: t9, service_time= 44,been on core for: 16 
+Processing all 4 cores, current Computer time=117 
+Core[0]: t10, service_time= 53,been on core for: 12 
+Core[1]: t11, service_time= 53,been on core for: 7 
+Core[2]: t7, service_time= 53,been on core for: 17 
+Core[3]: t9, service_time= 43,been on core for: 17 
+Processing all 4 cores, current Computer time=118 
+Core[0]: t10, service_time= 52,been on core for: 13 
+Core[1]: t11, service_time= 52,been on core for: 8 
+Core[2]: t7, service_time= 52,been on core for: 18 
+Core[3]: t9, service_time= 42,been on core for: 18 
+Processing all 4 cores, current Computer time=119 
+Core[0]: t10, service_time= 51,been on core for: 14 
+Core[1]: t11, service_time= 51,been on core for: 9 
+Core[2]: t7, service_time= 51,been on core for: 19 
+Core[3]: t9, service_time= 41,been on core for: 19 
+Processing all 4 cores, current Computer time=120 
+Core[0]: t10, service_time= 50,been on core for: 15 
+Core[1]: t11, service_time= 50,been on core for: 10 
+Core[2]: t7, service_time= 50,been on core for: 20 
+Core[3]: t9, service_time= 40,been on core for: 20 
+Removed process from core 2 
+Process[t7] at core 2 has been removed from core with remaining service_time=50
+Process[t12] with service_time 30 has been added to core 2
+Removed process from core 3 
+Process[t9] at core 3 has been removed from core with remaining service_time=40
+Process[t5] with service_time 20 has been added to core 3
+Processing all 4 cores, current Computer time=121 
+Core[0]: t10, service_time= 49,been on core for: 16 
+Core[1]: t11, service_time= 49,been on core for: 11 
+Core[2]: t12, service_time= 29,been on core for: 1 
+Core[3]: t5, service_time= 19,been on core for: 1 
+Processing all 4 cores, current Computer time=122 
+Core[0]: t10, service_time= 48,been on core for: 17 
+Core[1]: t11, service_time= 48,been on core for: 12 
+Core[2]: t12, service_time= 28,been on core for: 2 
+Core[3]: t5, service_time= 18,been on core for: 2 
+Processing all 4 cores, current Computer time=123 
+Core[0]: t10, service_time= 47,been on core for: 18 
+Core[1]: t11, service_time= 47,been on core for: 13 
+Core[2]: t12, service_time= 27,been on core for: 3 
+Core[3]: t5, service_time= 17,been on core for: 3 
+Processing all 4 cores, current Computer time=124 
+Core[0]: t10, service_time= 46,been on core for: 19 
+Core[1]: t11, service_time= 46,been on core for: 14 
+Core[2]: t12, service_time= 26,been on core for: 4 
+Core[3]: t5, service_time= 16,been on core for: 4 
+Processing all 4 cores, current Computer time=125 
+Core[0]: t10, service_time= 45,been on core for: 20 
+Core[1]: t11, service_time= 45,been on core for: 15 
+Core[2]: t12, service_time= 25,been on core for: 5 
+Core[3]: t5, service_time= 15,been on core for: 5 
+Removed process from core 0 
+Process[t10] at core 0 has been removed from core with remaining service_time=45
+Process[t13] with service_time 40 has been added to core 0
+Processing all 4 cores, current Computer time=126 
+Core[0]: t13, service_time= 39,been on core for: 1 
+Core[1]: t11, service_time= 44,been on core for: 16 
+Core[2]: t12, service_time= 24,been on core for: 6 
+Core[3]: t5, service_time= 14,been on core for: 6 
+Processing all 4 cores, current Computer time=127 
+Core[0]: t13, service_time= 38,been on core for: 2 
+Core[1]: t11, service_time= 43,been on core for: 17 
+Core[2]: t12, service_time= 23,been on core for: 7 
+Core[3]: t5, service_time= 13,been on core for: 7 
+Processing all 4 cores, current Computer time=128 
+Core[0]: t13, service_time= 37,been on core for: 3 
+Core[1]: t11, service_time= 42,been on core for: 18 
+Core[2]: t12, service_time= 22,been on core for: 8 
+Core[3]: t5, service_time= 12,been on core for: 8 
+Processing all 4 cores, current Computer time=129 
+Core[0]: t13, service_time= 36,been on core for: 4 
+Core[1]: t11, service_time= 41,been on core for: 19 
+Core[2]: t12, service_time= 21,been on core for: 9 
+Core[3]: t5, service_time= 11,been on core for: 9 
+Processing all 4 cores, current Computer time=130 
+Core[0]: t13, service_time= 35,been on core for: 5 
+Core[1]: t11, service_time= 40,been on core for: 20 
+Core[2]: t12, service_time= 20,been on core for: 10 
+Core[3]: t5, service_time= 10,been on core for: 10 
+Removed process from core 1 
+Process[t11] at core 1 has been removed from core with remaining service_time=40
+Process[t6] with service_time 5 has been added to core 1
+Processing all 4 cores, current Computer time=131 
+Core[0]: t13, service_time= 34,been on core for: 6 
+Core[1]: t6, service_time= 4,been on core for: 1 
+Core[2]: t12, service_time= 19,been on core for: 11 
+Core[3]: t5, service_time= 9,been on core for: 11 
+Processing all 4 cores, current Computer time=132 
+Core[0]: t13, service_time= 33,been on core for: 7 
+Core[1]: t6, service_time= 3,been on core for: 2 
+Core[2]: t12, service_time= 18,been on core for: 12 
+Core[3]: t5, service_time= 8,been on core for: 12 
+Processing all 4 cores, current Computer time=133 
+Core[0]: t13, service_time= 32,been on core for: 8 
+Core[1]: t6, service_time= 2,been on core for: 3 
+Core[2]: t12, service_time= 17,been on core for: 13 
+Core[3]: t5, service_time= 7,been on core for: 13 
+Processing all 4 cores, current Computer time=134 
+Core[0]: t13, service_time= 31,been on core for: 9 
+Core[1]: t6, service_time= 1,been on core for: 4 
+Core[2]: t12, service_time= 16,been on core for: 14 
+Core[3]: t5, service_time= 6,been on core for: 14 
+Processing all 4 cores, current Computer time=135 
+Core[0]: t13, service_time= 30,been on core for: 10 
+Core[1]: t6, service_time= 0,been on core for: 5 
+Core[2]: t12, service_time= 15,been on core for: 15 
+Core[3]: t5, service_time= 5,been on core for: 15 
+Removed process from core 1 
+Process[t6] at core 1 has been removed from core with remaining service_time=0
+Process[t14] with service_time 47 has been added to core 1
+Processing all 4 cores, current Computer time=136 
+Core[0]: t13, service_time= 29,been on core for: 11 
+Core[1]: t14, service_time= 46,been on core for: 1 
+Core[2]: t12, service_time= 14,been on core for: 16 
+Core[3]: t5, service_time= 4,been on core for: 16 
+Processing all 4 cores, current Computer time=137 
+Core[0]: t13, service_time= 28,been on core for: 12 
+Core[1]: t14, service_time= 45,been on core for: 2 
+Core[2]: t12, service_time= 13,been on core for: 17 
+Core[3]: t5, service_time= 3,been on core for: 17 
+Processing all 4 cores, current Computer time=138 
+Core[0]: t13, service_time= 27,been on core for: 13 
+Core[1]: t14, service_time= 44,been on core for: 3 
+Core[2]: t12, service_time= 12,been on core for: 18 
+Core[3]: t5, service_time= 2,been on core for: 18 
+Processing all 4 cores, current Computer time=139 
+Core[0]: t13, service_time= 26,been on core for: 14 
+Core[1]: t14, service_time= 43,been on core for: 4 
+Core[2]: t12, service_time= 11,been on core for: 19 
+Core[3]: t5, service_time= 1,been on core for: 19 
+Processing all 4 cores, current Computer time=140 
+Core[0]: t13, service_time= 25,been on core for: 15 
+Core[1]: t14, service_time= 42,been on core for: 5 
+Core[2]: t12, service_time= 10,been on core for: 20 
+Core[3]: t5, service_time= 0,been on core for: 20 
+Removed process from core 2 
+Process[t12] at core 2 has been removed from core with remaining service_time=10
+Process[t15] with service_time 50 has been added to core 2
+Removed process from core 3 
+Process[t5] at core 3 has been removed from core with remaining service_time=0
+Process[t7] with service_time 50 has been added to core 3
+Processing all 4 cores, current Computer time=141 
+Core[0]: t13, service_time= 24,been on core for: 16 
+Core[1]: t14, service_time= 41,been on core for: 6 
+Core[2]: t15, service_time= 49,been on core for: 1 
+Core[3]: t7, service_time= 49,been on core for: 1 
+Processing all 4 cores, current Computer time=142 
+Core[0]: t13, service_time= 23,been on core for: 17 
+Core[1]: t14, service_time= 40,been on core for: 7 
+Core[2]: t15, service_time= 48,been on core for: 2 
+Core[3]: t7, service_time= 48,been on core for: 2 
+Processing all 4 cores, current Computer time=143 
+Core[0]: t13, service_time= 22,been on core for: 18 
+Core[1]: t14, service_time= 39,been on core for: 8 
+Core[2]: t15, service_time= 47,been on core for: 3 
+Core[3]: t7, service_time= 47,been on core for: 3 
+Processing all 4 cores, current Computer time=144 
+Core[0]: t13, service_time= 21,been on core for: 19 
+Core[1]: t14, service_time= 38,been on core for: 9 
+Core[2]: t15, service_time= 46,been on core for: 4 
+Core[3]: t7, service_time= 46,been on core for: 4 
+Processing all 4 cores, current Computer time=145 
+Core[0]: t13, service_time= 20,been on core for: 20 
+Core[1]: t14, service_time= 37,been on core for: 10 
+Core[2]: t15, service_time= 45,been on core for: 5 
+Core[3]: t7, service_time= 45,been on core for: 5 
+Removed process from core 0 
+Process[t13] at core 0 has been removed from core with remaining service_time=20
+Process[t9] with service_time 40 has been added to core 0
+Processing all 4 cores, current Computer time=146 
+Core[0]: t9, service_time= 39,been on core for: 1 
+Core[1]: t14, service_time= 36,been on core for: 11 
+Core[2]: t15, service_time= 44,been on core for: 6 
+Core[3]: t7, service_time= 44,been on core for: 6 
+Processing all 4 cores, current Computer time=147 
+Core[0]: t9, service_time= 38,been on core for: 2 
+Core[1]: t14, service_time= 35,been on core for: 12 
+Core[2]: t15, service_time= 43,been on core for: 7 
+Core[3]: t7, service_time= 43,been on core for: 7 
+Processing all 4 cores, current Computer time=148 
+Core[0]: t9, service_time= 37,been on core for: 3 
+Core[1]: t14, service_time= 34,been on core for: 13 
+Core[2]: t15, service_time= 42,been on core for: 8 
+Core[3]: t7, service_time= 42,been on core for: 8 
+Processing all 4 cores, current Computer time=149 
+Core[0]: t9, service_time= 36,been on core for: 4 
+Core[1]: t14, service_time= 33,been on core for: 14 
+Core[2]: t15, service_time= 41,been on core for: 9 
+Core[3]: t7, service_time= 41,been on core for: 9 
+Processing all 4 cores, current Computer time=150 
+Core[0]: t9, service_time= 35,been on core for: 5 
+Core[1]: t14, service_time= 32,been on core for: 15 
+Core[2]: t15, service_time= 40,been on core for: 10 
+Core[3]: t7, service_time= 40,been on core for: 10 
+Processing all 4 cores, current Computer time=151 
+Core[0]: t9, service_time= 34,been on core for: 6 
+Core[1]: t14, service_time= 31,been on core for: 16 
+Core[2]: t15, service_time= 39,been on core for: 11 
+Core[3]: t7, service_time= 39,been on core for: 11 
+Processing all 4 cores, current Computer time=152 
+Core[0]: t9, service_time= 33,been on core for: 7 
+Core[1]: t14, service_time= 30,been on core for: 17 
+Core[2]: t15, service_time= 38,been on core for: 12 
+Core[3]: t7, service_time= 38,been on core for: 12 
+Processing all 4 cores, current Computer time=153 
+Core[0]: t9, service_time= 32,been on core for: 8 
+Core[1]: t14, service_time= 29,been on core for: 18 
+Core[2]: t15, service_time= 37,been on core for: 13 
+Core[3]: t7, service_time= 37,been on core for: 13 
+Processing all 4 cores, current Computer time=154 
+Core[0]: t9, service_time= 31,been on core for: 9 
+Core[1]: t14, service_time= 28,been on core for: 19 
+Core[2]: t15, service_time= 36,been on core for: 14 
+Core[3]: t7, service_time= 36,been on core for: 14 
+Processing all 4 cores, current Computer time=155 
+Core[0]: t9, service_time= 30,been on core for: 10 
+Core[1]: t14, service_time= 27,been on core for: 20 
+Core[2]: t15, service_time= 35,been on core for: 15 
+Core[3]: t7, service_time= 35,been on core for: 15 
+Removed process from core 1 
+Process[t14] at core 1 has been removed from core with remaining service_time=27
+Process[t10] with service_time 45 has been added to core 1
+Processing all 4 cores, current Computer time=156 
+Core[0]: t9, service_time= 29,been on core for: 11 
+Core[1]: t10, service_time= 44,been on core for: 1 
+Core[2]: t15, service_time= 34,been on core for: 16 
+Core[3]: t7, service_time= 34,been on core for: 16 
+Processing all 4 cores, current Computer time=157 
+Core[0]: t9, service_time= 28,been on core for: 12 
+Core[1]: t10, service_time= 43,been on core for: 2 
+Core[2]: t15, service_time= 33,been on core for: 17 
+Core[3]: t7, service_time= 33,been on core for: 17 
+Processing all 4 cores, current Computer time=158 
+Core[0]: t9, service_time= 27,been on core for: 13 
+Core[1]: t10, service_time= 42,been on core for: 3 
+Core[2]: t15, service_time= 32,been on core for: 18 
+Core[3]: t7, service_time= 32,been on core for: 18 
+Processing all 4 cores, current Computer time=159 
+Core[0]: t9, service_time= 26,been on core for: 14 
+Core[1]: t10, service_time= 41,been on core for: 4 
+Core[2]: t15, service_time= 31,been on core for: 19 
+Core[3]: t7, service_time= 31,been on core for: 19 
+Processing all 4 cores, current Computer time=160 
+Core[0]: t9, service_time= 25,been on core for: 15 
+Core[1]: t10, service_time= 40,been on core for: 5 
+Core[2]: t15, service_time= 30,been on core for: 20 
+Core[3]: t7, service_time= 30,been on core for: 20 
+Removed process from core 2 
+Process[t15] at core 2 has been removed from core with remaining service_time=30
+Process[t11] with service_time 40 has been added to core 2
+Removed process from core 3 
+Process[t7] at core 3 has been removed from core with remaining service_time=30
+Process[t12] with service_time 10 has been added to core 3
+Processing all 4 cores, current Computer time=161 
+Core[0]: t9, service_time= 24,been on core for: 16 
+Core[1]: t10, service_time= 39,been on core for: 6 
+Core[2]: t11, service_time= 39,been on core for: 1 
+Core[3]: t12, service_time= 9,been on core for: 1 
+Processing all 4 cores, current Computer time=162 
+Core[0]: t9, service_time= 23,been on core for: 17 
+Core[1]: t10, service_time= 38,been on core for: 7 
+Core[2]: t11, service_time= 38,been on core for: 2 
+Core[3]: t12, service_time= 8,been on core for: 2 
+Processing all 4 cores, current Computer time=163 
+Core[0]: t9, service_time= 22,been on core for: 18 
+Core[1]: t10, service_time= 37,been on core for: 8 
+Core[2]: t11, service_time= 37,been on core for: 3 
+Core[3]: t12, service_time= 7,been on core for: 3 
+Processing all 4 cores, current Computer time=164 
+Core[0]: t9, service_time= 21,been on core for: 19 
+Core[1]: t10, service_time= 36,been on core for: 9 
+Core[2]: t11, service_time= 36,been on core for: 4 
+Core[3]: t12, service_time= 6,been on core for: 4 
+Processing all 4 cores, current Computer time=165 
+Core[0]: t9, service_time= 20,been on core for: 20 
+Core[1]: t10, service_time= 35,been on core for: 10 
+Core[2]: t11, service_time= 35,been on core for: 5 
+Core[3]: t12, service_time= 5,been on core for: 5 
+Removed process from core 0 
+Process[t9] at core 0 has been removed from core with remaining service_time=20
+Process[t13] with service_time 20 has been added to core 0
+Processing all 4 cores, current Computer time=166 
+Core[0]: t13, service_time= 19,been on core for: 1 
+Core[1]: t10, service_time= 34,been on core for: 11 
+Core[2]: t11, service_time= 34,been on core for: 6 
+Core[3]: t12, service_time= 4,been on core for: 6 
+Processing all 4 cores, current Computer time=167 
+Core[0]: t13, service_time= 18,been on core for: 2 
+Core[1]: t10, service_time= 33,been on core for: 12 
+Core[2]: t11, service_time= 33,been on core for: 7 
+Core[3]: t12, service_time= 3,been on core for: 7 
+Processing all 4 cores, current Computer time=168 
+Core[0]: t13, service_time= 17,been on core for: 3 
+Core[1]: t10, service_time= 32,been on core for: 13 
+Core[2]: t11, service_time= 32,been on core for: 8 
+Core[3]: t12, service_time= 2,been on core for: 8 
+Processing all 4 cores, current Computer time=169 
+Core[0]: t13, service_time= 16,been on core for: 4 
+Core[1]: t10, service_time= 31,been on core for: 14 
+Core[2]: t11, service_time= 31,been on core for: 9 
+Core[3]: t12, service_time= 1,been on core for: 9 
+Processing all 4 cores, current Computer time=170 
+Core[0]: t13, service_time= 15,been on core for: 5 
+Core[1]: t10, service_time= 30,been on core for: 15 
+Core[2]: t11, service_time= 30,been on core for: 10 
+Core[3]: t12, service_time= 0,been on core for: 10 
+Removed process from core 3 
+Process[t12] at core 3 has been removed from core with remaining service_time=0
+Process[t14] with service_time 27 has been added to core 3
+Processing all 4 cores, current Computer time=171 
+Core[0]: t13, service_time= 14,been on core for: 6 
+Core[1]: t10, service_time= 29,been on core for: 16 
+Core[2]: t11, service_time= 29,been on core for: 11 
+Core[3]: t14, service_time= 26,been on core for: 1 
+Processing all 4 cores, current Computer time=172 
+Core[0]: t13, service_time= 13,been on core for: 7 
+Core[1]: t10, service_time= 28,been on core for: 17 
+Core[2]: t11, service_time= 28,been on core for: 12 
+Core[3]: t14, service_time= 25,been on core for: 2 
+Processing all 4 cores, current Computer time=173 
+Core[0]: t13, service_time= 12,been on core for: 8 
+Core[1]: t10, service_time= 27,been on core for: 18 
+Core[2]: t11, service_time= 27,been on core for: 13 
+Core[3]: t14, service_time= 24,been on core for: 3 
+Processing all 4 cores, current Computer time=174 
+Core[0]: t13, service_time= 11,been on core for: 9 
+Core[1]: t10, service_time= 26,been on core for: 19 
+Core[2]: t11, service_time= 26,been on core for: 14 
+Core[3]: t14, service_time= 23,been on core for: 4 
+Processing all 4 cores, current Computer time=175 
+Core[0]: t13, service_time= 10,been on core for: 10 
+Core[1]: t10, service_time= 25,been on core for: 20 
+Core[2]: t11, service_time= 25,been on core for: 15 
+Core[3]: t14, service_time= 22,been on core for: 5 
+Removed process from core 1 
+Process[t10] at core 1 has been removed from core with remaining service_time=25
+Process[t15] with service_time 30 has been added to core 1
+Processing all 4 cores, current Computer time=176 
+Core[0]: t13, service_time= 9,been on core for: 11 
+Core[1]: t15, service_time= 29,been on core for: 1 
+Core[2]: t11, service_time= 24,been on core for: 16 
+Core[3]: t14, service_time= 21,been on core for: 6 
+Processing all 4 cores, current Computer time=177 
+Core[0]: t13, service_time= 8,been on core for: 12 
+Core[1]: t15, service_time= 28,been on core for: 2 
+Core[2]: t11, service_time= 23,been on core for: 17 
+Core[3]: t14, service_time= 20,been on core for: 7 
+Processing all 4 cores, current Computer time=178 
+Core[0]: t13, service_time= 7,been on core for: 13 
+Core[1]: t15, service_time= 27,been on core for: 3 
+Core[2]: t11, service_time= 22,been on core for: 18 
+Core[3]: t14, service_time= 19,been on core for: 8 
+Processing all 4 cores, current Computer time=179 
+Core[0]: t13, service_time= 6,been on core for: 14 
+Core[1]: t15, service_time= 26,been on core for: 4 
+Core[2]: t11, service_time= 21,been on core for: 19 
+Core[3]: t14, service_time= 18,been on core for: 9 
+Processing all 4 cores, current Computer time=180 
+Core[0]: t13, service_time= 5,been on core for: 15 
+Core[1]: t15, service_time= 25,been on core for: 5 
+Core[2]: t11, service_time= 20,been on core for: 20 
+Core[3]: t14, service_time= 17,been on core for: 10 
+Removed process from core 2 
+Process[t11] at core 2 has been removed from core with remaining service_time=20
+Process[t7] with service_time 30 has been added to core 2
+Processing all 4 cores, current Computer time=181 
+Core[0]: t13, service_time= 4,been on core for: 16 
+Core[1]: t15, service_time= 24,been on core for: 6 
+Core[2]: t7, service_time= 29,been on core for: 1 
+Core[3]: t14, service_time= 16,been on core for: 11 
+Processing all 4 cores, current Computer time=182 
+Core[0]: t13, service_time= 3,been on core for: 17 
+Core[1]: t15, service_time= 23,been on core for: 7 
+Core[2]: t7, service_time= 28,been on core for: 2 
+Core[3]: t14, service_time= 15,been on core for: 12 
+Processing all 4 cores, current Computer time=183 
+Core[0]: t13, service_time= 2,been on core for: 18 
+Core[1]: t15, service_time= 22,been on core for: 8 
+Core[2]: t7, service_time= 27,been on core for: 3 
+Core[3]: t14, service_time= 14,been on core for: 13 
+Processing all 4 cores, current Computer time=184 
+Core[0]: t13, service_time= 1,been on core for: 19 
+Core[1]: t15, service_time= 21,been on core for: 9 
+Core[2]: t7, service_time= 26,been on core for: 4 
+Core[3]: t14, service_time= 13,been on core for: 14 
+Processing all 4 cores, current Computer time=185 
+Core[0]: t13, service_time= 0,been on core for: 20 
+Core[1]: t15, service_time= 20,been on core for: 10 
+Core[2]: t7, service_time= 25,been on core for: 5 
+Core[3]: t14, service_time= 12,been on core for: 15 
+Removed process from core 0 
+Process[t13] at core 0 has been removed from core with remaining service_time=0
+Process[t9] with service_time 20 has been added to core 0
+Processing all 4 cores, current Computer time=186 
+Core[0]: t9, service_time= 19,been on core for: 1 
+Core[1]: t15, service_time= 19,been on core for: 11 
+Core[2]: t7, service_time= 24,been on core for: 6 
+Core[3]: t14, service_time= 11,been on core for: 16 
+Processing all 4 cores, current Computer time=187 
+Core[0]: t9, service_time= 18,been on core for: 2 
+Core[1]: t15, service_time= 18,been on core for: 12 
+Core[2]: t7, service_time= 23,been on core for: 7 
+Core[3]: t14, service_time= 10,been on core for: 17 
+Processing all 4 cores, current Computer time=188 
+Core[0]: t9, service_time= 17,been on core for: 3 
+Core[1]: t15, service_time= 17,been on core for: 13 
+Core[2]: t7, service_time= 22,been on core for: 8 
+Core[3]: t14, service_time= 9,been on core for: 18 
+Processing all 4 cores, current Computer time=189 
+Core[0]: t9, service_time= 16,been on core for: 4 
+Core[1]: t15, service_time= 16,been on core for: 14 
+Core[2]: t7, service_time= 21,been on core for: 9 
+Core[3]: t14, service_time= 8,been on core for: 19 
+Processing all 4 cores, current Computer time=190 
+Core[0]: t9, service_time= 15,been on core for: 5 
+Core[1]: t15, service_time= 15,been on core for: 15 
+Core[2]: t7, service_time= 20,been on core for: 10 
+Core[3]: t14, service_time= 7,been on core for: 20 
+Removed process from core 3 
+Process[t14] at core 3 has been removed from core with remaining service_time=7
+Process[t10] with service_time 25 has been added to core 3
+Processing all 4 cores, current Computer time=191 
+Core[0]: t9, service_time= 14,been on core for: 6 
+Core[1]: t15, service_time= 14,been on core for: 16 
+Core[2]: t7, service_time= 19,been on core for: 11 
+Core[3]: t10, service_time= 24,been on core for: 1 
+Processing all 4 cores, current Computer time=192 
+Core[0]: t9, service_time= 13,been on core for: 7 
+Core[1]: t15, service_time= 13,been on core for: 17 
+Core[2]: t7, service_time= 18,been on core for: 12 
+Core[3]: t10, service_time= 23,been on core for: 2 
+Processing all 4 cores, current Computer time=193 
+Core[0]: t9, service_time= 12,been on core for: 8 
+Core[1]: t15, service_time= 12,been on core for: 18 
+Core[2]: t7, service_time= 17,been on core for: 13 
+Core[3]: t10, service_time= 22,been on core for: 3 
+Processing all 4 cores, current Computer time=194 
+Core[0]: t9, service_time= 11,been on core for: 9 
+Core[1]: t15, service_time= 11,been on core for: 19 
+Core[2]: t7, service_time= 16,been on core for: 14 
+Core[3]: t10, service_time= 21,been on core for: 4 
+Processing all 4 cores, current Computer time=195 
+Core[0]: t9, service_time= 10,been on core for: 10 
+Core[1]: t15, service_time= 10,been on core for: 20 
+Core[2]: t7, service_time= 15,been on core for: 15 
+Core[3]: t10, service_time= 20,been on core for: 5 
+Removed process from core 1 
+Process[t15] at core 1 has been removed from core with remaining service_time=10
+Process[t11] with service_time 20 has been added to core 1
+Processing all 4 cores, current Computer time=196 
+Core[0]: t9, service_time= 9,been on core for: 11 
+Core[1]: t11, service_time= 19,been on core for: 1 
+Core[2]: t7, service_time= 14,been on core for: 16 
+Core[3]: t10, service_time= 19,been on core for: 6 
+Processing all 4 cores, current Computer time=197 
+Core[0]: t9, service_time= 8,been on core for: 12 
+Core[1]: t11, service_time= 18,been on core for: 2 
+Core[2]: t7, service_time= 13,been on core for: 17 
+Core[3]: t10, service_time= 18,been on core for: 7 
+Processing all 4 cores, current Computer time=198 
+Core[0]: t9, service_time= 7,been on core for: 13 
+Core[1]: t11, service_time= 17,been on core for: 3 
+Core[2]: t7, service_time= 12,been on core for: 18 
+Core[3]: t10, service_time= 17,been on core for: 8 
+Processing all 4 cores, current Computer time=199 
+Core[0]: t9, service_time= 6,been on core for: 14 
+Core[1]: t11, service_time= 16,been on core for: 4 
+Core[2]: t7, service_time= 11,been on core for: 19 
+Core[3]: t10, service_time= 16,been on core for: 9 
+Processing all 4 cores, current Computer time=200 
+Core[0]: t9, service_time= 5,been on core for: 15 
+Core[1]: t11, service_time= 15,been on core for: 5 
+Core[2]: t7, service_time= 10,been on core for: 20 
+Core[3]: t10, service_time= 15,been on core for: 10 
+Removed process from core 2 
+Process[t7] at core 2 has been removed from core with remaining service_time=10
+Process[t14] with service_time 7 has been added to core 2
+Processing all 4 cores, current Computer time=201 
+Core[0]: t9, service_time= 4,been on core for: 16 
+Core[1]: t11, service_time= 14,been on core for: 6 
+Core[2]: t14, service_time= 6,been on core for: 1 
+Core[3]: t10, service_time= 14,been on core for: 11 
+Processing all 4 cores, current Computer time=202 
+Core[0]: t9, service_time= 3,been on core for: 17 
+Core[1]: t11, service_time= 13,been on core for: 7 
+Core[2]: t14, service_time= 5,been on core for: 2 
+Core[3]: t10, service_time= 13,been on core for: 12 
+Processing all 4 cores, current Computer time=203 
+Core[0]: t9, service_time= 2,been on core for: 18 
+Core[1]: t11, service_time= 12,been on core for: 8 
+Core[2]: t14, service_time= 4,been on core for: 3 
+Core[3]: t10, service_time= 12,been on core for: 13 
+Processing all 4 cores, current Computer time=204 
+Core[0]: t9, service_time= 1,been on core for: 19 
+Core[1]: t11, service_time= 11,been on core for: 9 
+Core[2]: t14, service_time= 3,been on core for: 4 
+Core[3]: t10, service_time= 11,been on core for: 14 
+Processing all 4 cores, current Computer time=205 
+Core[0]: t9, service_time= 0,been on core for: 20 
+Core[1]: t11, service_time= 10,been on core for: 10 
+Core[2]: t14, service_time= 2,been on core for: 5 
+Core[3]: t10, service_time= 10,been on core for: 15 
+Removed process from core 0 
+Process[t9] at core 0 has been removed from core with remaining service_time=0
+Process[t15] with service_time 10 has been added to core 0
+Processing all 4 cores, current Computer time=206 
+Core[0]: t15, service_time= 9,been on core for: 1 
+Core[1]: t11, service_time= 9,been on core for: 11 
+Core[2]: t14, service_time= 1,been on core for: 6 
+Core[3]: t10, service_time= 9,been on core for: 16 
+Processing all 4 cores, current Computer time=207 
+Core[0]: t15, service_time= 8,been on core for: 2 
+Core[1]: t11, service_time= 8,been on core for: 12 
+Core[2]: t14, service_time= 0,been on core for: 7 
+Core[3]: t10, service_time= 8,been on core for: 17 
+Removed process from core 2 
+Process[t14] at core 2 has been removed from core with remaining service_time=0
+Process[t7] with service_time 10 has been added to core 2
+Processing all 4 cores, current Computer time=208 
+Core[0]: t15, service_time= 7,been on core for: 3 
+Core[1]: t11, service_time= 7,been on core for: 13 
+Core[2]: t7, service_time= 9,been on core for: 1 
+Core[3]: t10, service_time= 7,been on core for: 18 
+Processing all 4 cores, current Computer time=209 
+Core[0]: t15, service_time= 6,been on core for: 4 
+Core[1]: t11, service_time= 6,been on core for: 14 
+Core[2]: t7, service_time= 8,been on core for: 2 
+Core[3]: t10, service_time= 6,been on core for: 19 
+Processing all 4 cores, current Computer time=210 
+Core[0]: t15, service_time= 5,been on core for: 5 
+Core[1]: t11, service_time= 5,been on core for: 15 
+Core[2]: t7, service_time= 7,been on core for: 3 
+Core[3]: t10, service_time= 5,been on core for: 20 
+Removed process from core 3 
+Process[t10] at core 3 has been removed from core with remaining service_time=5
+Processing all 4 cores, current Computer time=211 
+Core[0]: t15, service_time= 4,been on core for: 6 
+Core[1]: t11, service_time= 4,been on core for: 16 
+Core[2]: t7, service_time= 6,been on core for: 4 
+Processing all 4 cores, current Computer time=212 
+Core[0]: t15, service_time= 3,been on core for: 7 
+Core[1]: t11, service_time= 3,been on core for: 17 
+Core[2]: t7, service_time= 5,been on core for: 5 
+Processing all 4 cores, current Computer time=213 
+Core[0]: t15, service_time= 2,been on core for: 8 
+Core[1]: t11, service_time= 2,been on core for: 18 
+Core[2]: t7, service_time= 4,been on core for: 6 
+Processing all 4 cores, current Computer time=214 
+Core[0]: t15, service_time= 1,been on core for: 9 
+Core[1]: t11, service_time= 1,been on core for: 19 
+Core[2]: t7, service_time= 3,been on core for: 7 
+Processing all 4 cores, current Computer time=215 
+Core[0]: t15, service_time= 0,been on core for: 10 
+Core[1]: t11, service_time= 0,been on core for: 20 
+Core[2]: t7, service_time= 2,been on core for: 8 
+Removed process from core 0 
+Process[t15] at core 0 has been removed from core with remaining service_time=0
+Removed process from core 1 
+Process[t11] at core 1 has been removed from core with remaining service_time=0
+Processing all 4 cores, current Computer time=216 
+Core[2]: t7, service_time= 1,been on core for: 9 
+Processing all 4 cores, current Computer time=217 
+Core[2]: t7, service_time= 0,been on core for: 10 
+Removed process from core 2 
+Process[t7] at core 2 has been removed from core with remaining service_time=0
+Processing all 4 cores, current Computer time=218 
+	*******Part 3*******
+name: t1, service_time: 20, arrival_time: 5
+name: t2, service_time: 30, arrival_time: 10
+name: t3, service_time: 40, arrival_time: 10
+name: t4, service_time: 50, arrival_time: 10
+name: t5, service_time: 60, arrival_time: 20
+name: t6, service_time: 45, arrival_time: 30
+name: t7, service_time: 90, arrival_time: 31
+name: t9, service_time: 80, arrival_time: 32
+name: t10, service_time: 85, arrival_time: 33
+name: t11, service_time: 80, arrival_time: 34
+name: t12, service_time: 50, arrival_time: 40
+name: t13, service_time: 60, arrival_time: 50
+name: t14, service_time: 67, arrival_time: 55
+name: t15, service_time: 70, arrival_time: 57
+Processing all 4 cores, current Computer time=1 
+Processing all 4 cores, current Computer time=2 
+Processing all 4 cores, current Computer time=3 
+Processing all 4 cores, current Computer time=4 
+Processing all 4 cores, current Computer time=5 
+Found Process: t1
+Process[t1] with service_time 20 has been added to core 0
+Processing all 4 cores, current Computer time=6 
+Core[0]: process t1, service_time= 19,been on core for: 1 
+Processing all 4 cores, current Computer time=7 
+Core[0]: process t1, service_time= 18,been on core for: 2 
+Processing all 4 cores, current Computer time=8 
+Core[0]: process t1, service_time= 17,been on core for: 3 
+Processing all 4 cores, current Computer time=9 
+Core[0]: process t1, service_time= 16,been on core for: 4 
+Processing all 4 cores, current Computer time=10 
+Core[0]: process t1, service_time= 15,been on core for: 5 
+Found Process: t2
+Found Process: t3
+Found Process: t4
+Process[t2] with service_time 30 has been added to core 1
+Process[t3] with service_time 40 has been added to core 2
+Process[t4] with service_time 50 has been added to core 3
+Processing all 4 cores, current Computer time=11 
+Core[0]: process t1, service_time= 14,been on core for: 6 
+Core[1]: process t2, service_time= 29,been on core for: 1 
+Core[2]: process t3, service_time= 39,been on core for: 1 
+Core[3]: process t4, service_time= 49,been on core for: 1 
+Event: There has been an IO event on core 3
+Process[t4] at core 3 has been removed from core with remaining service_time=49
+Removed process from core 3 
+Processing all 4 cores, current Computer time=12 
+Core[0]: process t1, service_time= 13,been on core for: 7 
+Core[1]: process t2, service_time= 28,been on core for: 2 
+Core[2]: process t3, service_time= 38,been on core for: 2 
+Processing all 4 cores, current Computer time=13 
+Core[0]: process t1, service_time= 12,been on core for: 8 
+Core[1]: process t2, service_time= 27,been on core for: 3 
+Core[2]: process t3, service_time= 37,been on core for: 3 
+Event: There has been an IO event on core 1
+Process[t2] at core 1 has been removed from core with remaining service_time=27
+Removed process from core 1 
+Processing all 4 cores, current Computer time=14 
+Core[0]: process t1, service_time= 11,been on core for: 9 
+Core[2]: process t3, service_time= 36,been on core for: 4 
+Processing all 4 cores, current Computer time=15 
+Core[0]: process t1, service_time= 10,been on core for: 10 
+Core[2]: process t3, service_time= 35,been on core for: 5 
+Processing all 4 cores, current Computer time=16 
+Core[0]: process t1, service_time= 9,been on core for: 11 
+Core[2]: process t3, service_time= 34,been on core for: 6 
+Processing all 4 cores, current Computer time=17 
+Core[0]: process t1, service_time= 8,been on core for: 12 
+Core[2]: process t3, service_time= 33,been on core for: 7 
+Processing all 4 cores, current Computer time=18 
+Core[0]: process t1, service_time= 7,been on core for: 13 
+Core[2]: process t3, service_time= 32,been on core for: 8 
+Event: There has been an IO event on core 0
+Process[t1] at core 0 has been removed from core with remaining service_time=7
+Removed process from core 0 
+Processing all 4 cores, current Computer time=19 
+Core[2]: process t3, service_time= 31,been on core for: 9 
+Processing all 4 cores, current Computer time=20 
+Core[2]: process t3, service_time= 30,been on core for: 10 
+Found Process: t5
+Process[t5] with service_time 60 has been added to core 0
+Processing all 4 cores, current Computer time=21 
+Core[0]: process t5, service_time= 59,been on core for: 1 
+Core[2]: process t3, service_time= 29,been on core for: 11 
+Processing all 4 cores, current Computer time=22 
+Core[0]: process t5, service_time= 58,been on core for: 2 
+Core[2]: process t3, service_time= 28,been on core for: 12 
+Event: There has been an IO event on core 2
+Process[t3] at core 2 has been removed from core with remaining service_time=28
+Removed process from core 2 
+Processing all 4 cores, current Computer time=23 
+Core[0]: process t5, service_time= 57,been on core for: 3 
+Processing all 4 cores, current Computer time=24 
+Core[0]: process t5, service_time= 56,been on core for: 4 
+Processing all 4 cores, current Computer time=25 
+Core[0]: process t5, service_time= 55,been on core for: 5 
+Processing all 4 cores, current Computer time=26 
+Core[0]: process t5, service_time= 54,been on core for: 6 
+Event: There has been an IO event on core 0
+Process[t5] at core 0 has been removed from core with remaining service_time=54
+Removed process from core 0 
+Processing all 4 cores, current Computer time=27 
+Processing all 4 cores, current Computer time=28 
+Processing all 4 cores, current Computer time=29 
+Processing all 4 cores, current Computer time=30 
+Found Process: t6
+Process[t6] with service_time 45 has been added to core 0
+Processing all 4 cores, current Computer time=31 
+Core[0]: process t6, service_time= 44,been on core for: 1 
+Found Process: t7
+Process[t7] with service_time 90 has been added to core 1
+Processing all 4 cores, current Computer time=32 
+Core[0]: process t6, service_time= 43,been on core for: 2 
+Core[1]: process t7, service_time= 89,been on core for: 1 
+Found Process: t9
+Process[t9] with service_time 80 has been added to core 2
+Processing all 4 cores, current Computer time=33 
+Core[0]: process t6, service_time= 42,been on core for: 3 
+Core[1]: process t7, service_time= 88,been on core for: 2 
+Core[2]: process t9, service_time= 79,been on core for: 1 
+Found Process: t10
+Event: There has been an IO event on core 2
+Process[t9] at core 2 has been removed from core with remaining service_time=79
+Removed process from core 2 
+Process[t10] with service_time 85 has been added to core 2
+Process[t9] with service_time 79 has been added to core 3
+Processing all 4 cores, current Computer time=34 
+Core[0]: process t6, service_time= 41,been on core for: 4 
+Core[1]: process t7, service_time= 87,been on core for: 3 
+Core[2]: process t10, service_time= 84,been on core for: 1 
+Core[3]: process t9, service_time= 78,been on core for: 1 
+Found Process: t11
+Event: There has been an IO event on core 2
+Process[t10] at core 2 has been removed from core with remaining service_time=84
+Removed process from core 2 
+Process[t11] with service_time 80 has been added to core 2
+Processing all 4 cores, current Computer time=35 
+Core[0]: process t6, service_time= 40,been on core for: 5 
+Core[1]: process t7, service_time= 86,been on core for: 4 
+Core[2]: process t11, service_time= 79,been on core for: 1 
+Core[3]: process t9, service_time= 77,been on core for: 2 
+Processing all 4 cores, current Computer time=36 
+Core[0]: process t6, service_time= 39,been on core for: 6 
+Core[1]: process t7, service_time= 85,been on core for: 5 
+Core[2]: process t11, service_time= 78,been on core for: 2 
+Core[3]: process t9, service_time= 76,been on core for: 3 
+Processing all 4 cores, current Computer time=37 
+Core[0]: process t6, service_time= 38,been on core for: 7 
+Core[1]: process t7, service_time= 84,been on core for: 6 
+Core[2]: process t11, service_time= 77,been on core for: 3 
+Core[3]: process t9, service_time= 75,been on core for: 4 
+Processing all 4 cores, current Computer time=38 
+Core[0]: process t6, service_time= 37,been on core for: 8 
+Core[1]: process t7, service_time= 83,been on core for: 7 
+Core[2]: process t11, service_time= 76,been on core for: 4 
+Core[3]: process t9, service_time= 74,been on core for: 5 
+Processing all 4 cores, current Computer time=39 
+Core[0]: process t6, service_time= 36,been on core for: 9 
+Core[1]: process t7, service_time= 82,been on core for: 8 
+Core[2]: process t11, service_time= 75,been on core for: 5 
+Core[3]: process t9, service_time= 73,been on core for: 6 
+Processing all 4 cores, current Computer time=40 
+Core[0]: process t6, service_time= 35,been on core for: 10 
+Core[1]: process t7, service_time= 81,been on core for: 9 
+Core[2]: process t11, service_time= 74,been on core for: 6 
+Core[3]: process t9, service_time= 72,been on core for: 7 
+Found Process: t12
+Event: There has been an IO event on core 2
+Process[t11] at core 2 has been removed from core with remaining service_time=74
+Removed process from core 2 
+Process[t10] with service_time 84 has been added to core 2
+Processing all 4 cores, current Computer time=41 
+Core[0]: process t6, service_time= 34,been on core for: 11 
+Core[1]: process t7, service_time= 80,been on core for: 10 
+Core[2]: process t10, service_time= 83,been on core for: 1 
+Core[3]: process t9, service_time= 71,been on core for: 8 
+Processing all 4 cores, current Computer time=42 
+Core[0]: process t6, service_time= 33,been on core for: 12 
+Core[1]: process t7, service_time= 79,been on core for: 11 
+Core[2]: process t10, service_time= 82,been on core for: 2 
+Core[3]: process t9, service_time= 70,been on core for: 9 
+Processing all 4 cores, current Computer time=43 
+Core[0]: process t6, service_time= 32,been on core for: 13 
+Core[1]: process t7, service_time= 78,been on core for: 12 
+Core[2]: process t10, service_time= 81,been on core for: 3 
+Core[3]: process t9, service_time= 69,been on core for: 10 
+Processing all 4 cores, current Computer time=44 
+Core[0]: process t6, service_time= 31,been on core for: 14 
+Core[1]: process t7, service_time= 77,been on core for: 13 
+Core[2]: process t10, service_time= 80,been on core for: 4 
+Core[3]: process t9, service_time= 68,been on core for: 11 
+Processing all 4 cores, current Computer time=45 
+Core[0]: process t6, service_time= 30,been on core for: 15 
+Core[1]: process t7, service_time= 76,been on core for: 14 
+Core[2]: process t10, service_time= 79,been on core for: 5 
+Core[3]: process t9, service_time= 67,been on core for: 12 
+Processing all 4 cores, current Computer time=46 
+Core[0]: process t6, service_time= 29,been on core for: 16 
+Core[1]: process t7, service_time= 75,been on core for: 15 
+Core[2]: process t10, service_time= 78,been on core for: 6 
+Core[3]: process t9, service_time= 66,been on core for: 13 
+Event: There has been an IO event on core 0
+Process[t6] at core 0 has been removed from core with remaining service_time=29
+Removed process from core 0 
+Process[t12] with service_time 50 has been added to core 0
+Processing all 4 cores, current Computer time=47 
+Core[0]: process t12, service_time= 49,been on core for: 1 
+Core[1]: process t7, service_time= 74,been on core for: 16 
+Core[2]: process t10, service_time= 77,been on core for: 7 
+Core[3]: process t9, service_time= 65,been on core for: 14 
+Event: There has been an IO event on core 1
+Process[t7] at core 1 has been removed from core with remaining service_time=74
+Removed process from core 1 
+Process[t11] with service_time 74 has been added to core 1
+Processing all 4 cores, current Computer time=48 
+Core[0]: process t12, service_time= 48,been on core for: 2 
+Core[1]: process t11, service_time= 73,been on core for: 1 
+Core[2]: process t10, service_time= 76,been on core for: 8 
+Core[3]: process t9, service_time= 64,been on core for: 15 
+Event: There has been an IO event on core 2
+Process[t10] at core 2 has been removed from core with remaining service_time=76
+Removed process from core 2 
+Process[t6] with service_time 29 has been added to core 2
+Processing all 4 cores, current Computer time=49 
+Core[0]: process t12, service_time= 47,been on core for: 3 
+Core[1]: process t11, service_time= 72,been on core for: 2 
+Core[2]: process t6, service_time= 28,been on core for: 1 
+Core[3]: process t9, service_time= 63,been on core for: 16 
+Processing all 4 cores, current Computer time=50 
+Core[0]: process t12, service_time= 46,been on core for: 4 
+Core[1]: process t11, service_time= 71,been on core for: 3 
+Core[2]: process t6, service_time= 27,been on core for: 2 
+Core[3]: process t9, service_time= 62,been on core for: 17 
+Found Process: t13
+Processing all 4 cores, current Computer time=51 
+Core[0]: process t12, service_time= 45,been on core for: 5 
+Core[1]: process t11, service_time= 70,been on core for: 4 
+Core[2]: process t6, service_time= 26,been on core for: 3 
+Core[3]: process t9, service_time= 61,been on core for: 18 
+Processing all 4 cores, current Computer time=52 
+Core[0]: process t12, service_time= 44,been on core for: 6 
+Core[1]: process t11, service_time= 69,been on core for: 5 
+Core[2]: process t6, service_time= 25,been on core for: 4 
+Core[3]: process t9, service_time= 60,been on core for: 19 
+Processing all 4 cores, current Computer time=53 
+Core[0]: process t12, service_time= 43,been on core for: 7 
+Core[1]: process t11, service_time= 68,been on core for: 6 
+Core[2]: process t6, service_time= 24,been on core for: 5 
+Core[3]: process t9, service_time= 59,been on core for: 20 
+Event: There has been an IO event on core 0
+Process[t12] at core 0 has been removed from core with remaining service_time=43
+Removed process from core 0 
+Process[t7] with service_time 74 has been added to core 0
+Event: There has been an IO event on core 2
+Process[t6] at core 2 has been removed from core with remaining service_time=24
+Removed process from core 2 
+Process[t10] with service_time 76 has been added to core 2
+Process[t9] at core 3 has been removed from core with remaining service_time=59
+Removed process from core 3 
+Process[t13] with service_time 60 has been added to core 3
+Processing all 4 cores, current Computer time=54 
+Core[0]: process t7, service_time= 73,been on core for: 1 
+Core[1]: process t11, service_time= 67,been on core for: 7 
+Core[2]: process t10, service_time= 75,been on core for: 1 
+Core[3]: process t13, service_time= 59,been on core for: 1 
+Event: There has been an IO event on core 0
+Process[t7] at core 0 has been removed from core with remaining service_time=73
+Removed process from core 0 
+Process[t12] with service_time 43 has been added to core 0
+Processing all 4 cores, current Computer time=55 
+Core[0]: process t12, service_time= 42,been on core for: 1 
+Core[1]: process t11, service_time= 66,been on core for: 8 
+Core[2]: process t10, service_time= 74,been on core for: 2 
+Core[3]: process t13, service_time= 58,been on core for: 2 
+Found Process: t14
+Event: There has been an IO event on core 3
+Process[t13] at core 3 has been removed from core with remaining service_time=58
+Removed process from core 3 
+Process[t6] with service_time 24 has been added to core 3
+Processing all 4 cores, current Computer time=56 
+Core[0]: process t12, service_time= 41,been on core for: 2 
+Core[1]: process t11, service_time= 65,been on core for: 9 
+Core[2]: process t10, service_time= 73,been on core for: 3 
+Core[3]: process t6, service_time= 23,been on core for: 1 
+Processing all 4 cores, current Computer time=57 
+Core[0]: process t12, service_time= 40,been on core for: 3 
+Core[1]: process t11, service_time= 64,been on core for: 10 
+Core[2]: process t10, service_time= 72,been on core for: 4 
+Core[3]: process t6, service_time= 22,been on core for: 2 
+Found Process: t15
+Processing all 4 cores, current Computer time=58 
+Core[0]: process t12, service_time= 39,been on core for: 4 
+Core[1]: process t11, service_time= 63,been on core for: 11 
+Core[2]: process t10, service_time= 71,been on core for: 5 
+Core[3]: process t6, service_time= 21,been on core for: 3 
+Event: There has been an IO event on core 1
+Process[t11] at core 1 has been removed from core with remaining service_time=63
+Removed process from core 1 
+Process[t9] with service_time 59 has been added to core 1
+Processing all 4 cores, current Computer time=59 
+Core[0]: process t12, service_time= 38,been on core for: 5 
+Core[1]: process t9, service_time= 58,been on core for: 1 
+Core[2]: process t10, service_time= 70,been on core for: 6 
+Core[3]: process t6, service_time= 20,been on core for: 4 
+Event: There has been an IO event on core 2
+Process[t10] at core 2 has been removed from core with remaining service_time=70
+Removed process from core 2 
+Process[t7] with service_time 73 has been added to core 2
+Processing all 4 cores, current Computer time=60 
+Core[0]: process t12, service_time= 37,been on core for: 6 
+Core[1]: process t9, service_time= 57,been on core for: 2 
+Core[2]: process t7, service_time= 72,been on core for: 1 
+Core[3]: process t6, service_time= 19,been on core for: 5 
+Event: There has been an IO event on core 0
+Process[t12] at core 0 has been removed from core with remaining service_time=37
+Removed process from core 0 
+Process[t14] with service_time 67 has been added to core 0
+Processing all 4 cores, current Computer time=61 
+Core[0]: process t14, service_time= 66,been on core for: 1 
+Core[1]: process t9, service_time= 56,been on core for: 3 
+Core[2]: process t7, service_time= 71,been on core for: 2 
+Core[3]: process t6, service_time= 18,been on core for: 6 
+Event: There has been an IO event on core 2
+Process[t7] at core 2 has been removed from core with remaining service_time=71
+Removed process from core 2 
+Process[t13] with service_time 58 has been added to core 2
+Processing all 4 cores, current Computer time=62 
+Core[0]: process t14, service_time= 65,been on core for: 2 
+Core[1]: process t9, service_time= 55,been on core for: 4 
+Core[2]: process t13, service_time= 57,been on core for: 1 
+Core[3]: process t6, service_time= 17,been on core for: 7 
+Processing all 4 cores, current Computer time=63 
+Core[0]: process t14, service_time= 64,been on core for: 3 
+Core[1]: process t9, service_time= 54,been on core for: 5 
+Core[2]: process t13, service_time= 56,been on core for: 2 
+Core[3]: process t6, service_time= 16,been on core for: 8 
+Event: There has been an IO event on core 3
+Process[t6] at core 3 has been removed from core with remaining service_time=16
+Removed process from core 3 
+Process[t15] with service_time 70 has been added to core 3
+Processing all 4 cores, current Computer time=64 
+Core[0]: process t14, service_time= 63,been on core for: 4 
+Core[1]: process t9, service_time= 53,been on core for: 6 
+Core[2]: process t13, service_time= 55,been on core for: 3 
+Core[3]: process t15, service_time= 69,been on core for: 1 
+Processing all 4 cores, current Computer time=65 
+Core[0]: process t14, service_time= 62,been on core for: 5 
+Core[1]: process t9, service_time= 52,been on core for: 7 
+Core[2]: process t13, service_time= 54,been on core for: 4 
+Core[3]: process t15, service_time= 68,been on core for: 2 
+Processing all 4 cores, current Computer time=66 
+Core[0]: process t14, service_time= 61,been on core for: 6 
+Core[1]: process t9, service_time= 51,been on core for: 8 
+Core[2]: process t13, service_time= 53,been on core for: 5 
+Core[3]: process t15, service_time= 67,been on core for: 3 
+Processing all 4 cores, current Computer time=67 
+Core[0]: process t14, service_time= 60,been on core for: 7 
+Core[1]: process t9, service_time= 50,been on core for: 9 
+Core[2]: process t13, service_time= 52,been on core for: 6 
+Core[3]: process t15, service_time= 66,been on core for: 4 
+Processing all 4 cores, current Computer time=68 
+Core[0]: process t14, service_time= 59,been on core for: 8 
+Core[1]: process t9, service_time= 49,been on core for: 10 
+Core[2]: process t13, service_time= 51,been on core for: 7 
+Core[3]: process t15, service_time= 65,been on core for: 5 
+Event: There has been an IO event on core 1
+Process[t9] at core 1 has been removed from core with remaining service_time=49
+Removed process from core 1 
+Process[t11] with service_time 63 has been added to core 1
+Processing all 4 cores, current Computer time=69 
+Core[0]: process t14, service_time= 58,been on core for: 9 
+Core[1]: process t11, service_time= 62,been on core for: 1 
+Core[2]: process t13, service_time= 50,been on core for: 8 
+Core[3]: process t15, service_time= 64,been on core for: 6 
+Processing all 4 cores, current Computer time=70 
+Core[0]: process t14, service_time= 57,been on core for: 10 
+Core[1]: process t11, service_time= 61,been on core for: 2 
+Core[2]: process t13, service_time= 49,been on core for: 9 
+Core[3]: process t15, service_time= 63,been on core for: 7 
+Processing all 4 cores, current Computer time=71 
+Core[0]: process t14, service_time= 56,been on core for: 11 
+Core[1]: process t11, service_time= 60,been on core for: 3 
+Core[2]: process t13, service_time= 48,been on core for: 10 
+Core[3]: process t15, service_time= 62,been on core for: 8 
+Event: There has been an IO event on core 1
+Process[t11] at core 1 has been removed from core with remaining service_time=60
+Removed process from core 1 
+Process[t10] with service_time 70 has been added to core 1
+Processing all 4 cores, current Computer time=72 
+Core[0]: process t14, service_time= 55,been on core for: 12 
+Core[1]: process t10, service_time= 69,been on core for: 1 
+Core[2]: process t13, service_time= 47,been on core for: 11 
+Core[3]: process t15, service_time= 61,been on core for: 9 
+Processing all 4 cores, current Computer time=73 
+Core[0]: process t14, service_time= 54,been on core for: 13 
+Core[1]: process t10, service_time= 68,been on core for: 2 
+Core[2]: process t13, service_time= 46,been on core for: 12 
+Core[3]: process t15, service_time= 60,been on core for: 10 
+Event: There has been an IO event on core 2
+Process[t13] at core 2 has been removed from core with remaining service_time=46
+Removed process from core 2 
+Process[t12] with service_time 37 has been added to core 2
+Processing all 4 cores, current Computer time=74 
+Core[0]: process t14, service_time= 53,been on core for: 14 
+Core[1]: process t10, service_time= 67,been on core for: 3 
+Core[2]: process t12, service_time= 36,been on core for: 1 
+Core[3]: process t15, service_time= 59,been on core for: 11 
+Processing all 4 cores, current Computer time=75 
+Core[0]: process t14, service_time= 52,been on core for: 15 
+Core[1]: process t10, service_time= 66,been on core for: 4 
+Core[2]: process t12, service_time= 35,been on core for: 2 
+Core[3]: process t15, service_time= 58,been on core for: 12 
+Processing all 4 cores, current Computer time=76 
+Core[0]: process t14, service_time= 51,been on core for: 16 
+Core[1]: process t10, service_time= 65,been on core for: 5 
+Core[2]: process t12, service_time= 34,been on core for: 3 
+Core[3]: process t15, service_time= 57,been on core for: 13 
+Event: There has been an IO event on core 3
+Process[t15] at core 3 has been removed from core with remaining service_time=57
+Removed process from core 3 
+Process[t7] with service_time 71 has been added to core 3
+Processing all 4 cores, current Computer time=77 
+Core[0]: process t14, service_time= 50,been on core for: 17 
+Core[1]: process t10, service_time= 64,been on core for: 6 
+Core[2]: process t12, service_time= 33,been on core for: 4 
+Core[3]: process t7, service_time= 70,been on core for: 1 
+Processing all 4 cores, current Computer time=78 
+Core[0]: process t14, service_time= 49,been on core for: 18 
+Core[1]: process t10, service_time= 63,been on core for: 7 
+Core[2]: process t12, service_time= 32,been on core for: 5 
+Core[3]: process t7, service_time= 69,been on core for: 2 
+Processing all 4 cores, current Computer time=79 
+Core[0]: process t14, service_time= 48,been on core for: 19 
+Core[1]: process t10, service_time= 62,been on core for: 8 
+Core[2]: process t12, service_time= 31,been on core for: 6 
+Core[3]: process t7, service_time= 68,been on core for: 3 
+Event: There has been an IO event on core 0
+Process[t14] at core 0 has been removed from core with remaining service_time=48
+Removed process from core 0 
+Process[t6] with service_time 16 has been added to core 0
+Processing all 4 cores, current Computer time=80 
+Core[0]: process t6, service_time= 15,been on core for: 1 
+Core[1]: process t10, service_time= 61,been on core for: 9 
+Core[2]: process t12, service_time= 30,been on core for: 7 
+Core[3]: process t7, service_time= 67,been on core for: 4 
+Event: There has been an IO event on core 2
+Process[t12] at core 2 has been removed from core with remaining service_time=30
+Removed process from core 2 
+Process[t9] with service_time 49 has been added to core 2
+Processing all 4 cores, current Computer time=81 
+Core[0]: process t6, service_time= 14,been on core for: 2 
+Core[1]: process t10, service_time= 60,been on core for: 10 
+Core[2]: process t9, service_time= 48,been on core for: 1 
+Core[3]: process t7, service_time= 66,been on core for: 5 
+Event: There has been an IO event on core 1
+Process[t10] at core 1 has been removed from core with remaining service_time=60
+Removed process from core 1 
+Process[t11] with service_time 60 has been added to core 1
+Processing all 4 cores, current Computer time=82 
+Core[0]: process t6, service_time= 13,been on core for: 3 
+Core[1]: process t11, service_time= 59,been on core for: 1 
+Core[2]: process t9, service_time= 47,been on core for: 2 
+Core[3]: process t7, service_time= 65,been on core for: 6 
+Processing all 4 cores, current Computer time=83 
+Core[0]: process t6, service_time= 12,been on core for: 4 
+Core[1]: process t11, service_time= 58,been on core for: 2 
+Core[2]: process t9, service_time= 46,been on core for: 3 
+Core[3]: process t7, service_time= 64,been on core for: 7 
+Processing all 4 cores, current Computer time=84 
+Core[0]: process t6, service_time= 11,been on core for: 5 
+Core[1]: process t11, service_time= 57,been on core for: 3 
+Core[2]: process t9, service_time= 45,been on core for: 4 
+Core[3]: process t7, service_time= 63,been on core for: 8 
+Event: There has been an IO event on core 1
+Process[t11] at core 1 has been removed from core with remaining service_time=57
+Removed process from core 1 
+Process[t13] with service_time 46 has been added to core 1
+Processing all 4 cores, current Computer time=85 
+Core[0]: process t6, service_time= 10,been on core for: 6 
+Core[1]: process t13, service_time= 45,been on core for: 1 
+Core[2]: process t9, service_time= 44,been on core for: 5 
+Core[3]: process t7, service_time= 62,been on core for: 9 
+Processing all 4 cores, current Computer time=86 
+Core[0]: process t6, service_time= 9,been on core for: 7 
+Core[1]: process t13, service_time= 44,been on core for: 2 
+Core[2]: process t9, service_time= 43,been on core for: 6 
+Core[3]: process t7, service_time= 61,been on core for: 10 
+Processing all 4 cores, current Computer time=87 
+Core[0]: process t6, service_time= 8,been on core for: 8 
+Core[1]: process t13, service_time= 43,been on core for: 3 
+Core[2]: process t9, service_time= 42,been on core for: 7 
+Core[3]: process t7, service_time= 60,been on core for: 11 
+Processing all 4 cores, current Computer time=88 
+Core[0]: process t6, service_time= 7,been on core for: 9 
+Core[1]: process t13, service_time= 42,been on core for: 4 
+Core[2]: process t9, service_time= 41,been on core for: 8 
+Core[3]: process t7, service_time= 59,been on core for: 12 
+Processing all 4 cores, current Computer time=89 
+Core[0]: process t6, service_time= 6,been on core for: 10 
+Core[1]: process t13, service_time= 41,been on core for: 5 
+Core[2]: process t9, service_time= 40,been on core for: 9 
+Core[3]: process t7, service_time= 58,been on core for: 13 
+Processing all 4 cores, current Computer time=90 
+Core[0]: process t6, service_time= 5,been on core for: 11 
+Core[1]: process t13, service_time= 40,been on core for: 6 
+Core[2]: process t9, service_time= 39,been on core for: 10 
+Core[3]: process t7, service_time= 57,been on core for: 14 
+Processing all 4 cores, current Computer time=91 
+Core[0]: process t6, service_time= 4,been on core for: 12 
+Core[1]: process t13, service_time= 39,been on core for: 7 
+Core[2]: process t9, service_time= 38,been on core for: 11 
+Core[3]: process t7, service_time= 56,been on core for: 15 
+Processing all 4 cores, current Computer time=92 
+Core[0]: process t6, service_time= 3,been on core for: 13 
+Core[1]: process t13, service_time= 38,been on core for: 8 
+Core[2]: process t9, service_time= 37,been on core for: 12 
+Core[3]: process t7, service_time= 55,been on core for: 16 
+Event: There has been an IO event on core 0
+Process[t6] at core 0 has been removed from core with remaining service_time=3
+Removed process from core 0 
+Process[t15] with service_time 57 has been added to core 0
+Event: There has been an IO event on core 1
+Process[t13] at core 1 has been removed from core with remaining service_time=38
+Removed process from core 1 
+Process[t14] with service_time 48 has been added to core 1
+Processing all 4 cores, current Computer time=93 
+Core[0]: process t15, service_time= 56,been on core for: 1 
+Core[1]: process t14, service_time= 47,been on core for: 1 
+Core[2]: process t9, service_time= 36,been on core for: 13 
+Core[3]: process t7, service_time= 54,been on core for: 17 
+Processing all 4 cores, current Computer time=94 
+Core[0]: process t15, service_time= 55,been on core for: 2 
+Core[1]: process t14, service_time= 46,been on core for: 2 
+Core[2]: process t9, service_time= 35,been on core for: 14 
+Core[3]: process t7, service_time= 53,been on core for: 18 
+Processing all 4 cores, current Computer time=95 
+Core[0]: process t15, service_time= 54,been on core for: 3 
+Core[1]: process t14, service_time= 45,been on core for: 3 
+Core[2]: process t9, service_time= 34,been on core for: 15 
+Core[3]: process t7, service_time= 52,been on core for: 19 
+Event: There has been an IO event on core 1
+Process[t14] at core 1 has been removed from core with remaining service_time=45
+Removed process from core 1 
+Process[t12] with service_time 30 has been added to core 1
+Event: There has been an IO event on core 3
+Process[t7] at core 3 has been removed from core with remaining service_time=52
+Removed process from core 3 
+Process[t10] with service_time 60 has been added to core 3
+Processing all 4 cores, current Computer time=96 
+Core[0]: process t15, service_time= 53,been on core for: 4 
+Core[1]: process t12, service_time= 29,been on core for: 1 
+Core[2]: process t9, service_time= 33,been on core for: 16 
+Core[3]: process t10, service_time= 59,been on core for: 1 
+Event: There has been an IO event on core 1
+Process[t12] at core 1 has been removed from core with remaining service_time=29
+Removed process from core 1 
+Process[t11] with service_time 57 has been added to core 1
+Processing all 4 cores, current Computer time=97 
+Core[0]: process t15, service_time= 52,been on core for: 5 
+Core[1]: process t11, service_time= 56,been on core for: 1 
+Core[2]: process t9, service_time= 32,been on core for: 17 
+Core[3]: process t10, service_time= 58,been on core for: 2 
+Processing all 4 cores, current Computer time=98 
+Core[0]: process t15, service_time= 51,been on core for: 6 
+Core[1]: process t11, service_time= 55,been on core for: 2 
+Core[2]: process t9, service_time= 31,been on core for: 18 
+Core[3]: process t10, service_time= 57,been on core for: 3 
+Processing all 4 cores, current Computer time=99 
+Core[0]: process t15, service_time= 50,been on core for: 7 
+Core[1]: process t11, service_time= 54,been on core for: 3 
+Core[2]: process t9, service_time= 30,been on core for: 19 
+Core[3]: process t10, service_time= 56,been on core for: 4 
+Processing all 4 cores, current Computer time=100 
+Core[0]: process t15, service_time= 49,been on core for: 8 
+Core[1]: process t11, service_time= 53,been on core for: 4 
+Core[2]: process t9, service_time= 29,been on core for: 20 
+Core[3]: process t10, service_time= 55,been on core for: 5 
+Process[t9] at core 2 has been removed from core with remaining service_time=29
+Removed process from core 2 
+Process[t6] with service_time 3 has been added to core 2
+Event: There has been an IO event on core 3
+Process[t10] at core 3 has been removed from core with remaining service_time=55
+Removed process from core 3 
+Process[t13] with service_time 38 has been added to core 3
+Processing all 4 cores, current Computer time=101 
+Core[0]: process t15, service_time= 48,been on core for: 9 
+Core[1]: process t11, service_time= 52,been on core for: 5 
+Core[2]: process t6, service_time= 2,been on core for: 1 
+Core[3]: process t13, service_time= 37,been on core for: 1 
+Processing all 4 cores, current Computer time=102 
+Core[0]: process t15, service_time= 47,been on core for: 10 
+Core[1]: process t11, service_time= 51,been on core for: 6 
+Core[2]: process t6, service_time= 1,been on core for: 2 
+Core[3]: process t13, service_time= 36,been on core for: 2 
+Event: There has been an IO event on core 1
+Process[t11] at core 1 has been removed from core with remaining service_time=51
+Removed process from core 1 
+Process[t14] with service_time 45 has been added to core 1
+Event: There has been an IO event on core 2
+Process[t6] at core 2 has been removed from core with remaining service_time=1
+Removed process from core 2 
+Process[t7] with service_time 52 has been added to core 2
+Processing all 4 cores, current Computer time=103 
+Core[0]: process t15, service_time= 46,been on core for: 11 
+Core[1]: process t14, service_time= 44,been on core for: 1 
+Core[2]: process t7, service_time= 51,been on core for: 1 
+Core[3]: process t13, service_time= 35,been on core for: 3 
+Processing all 4 cores, current Computer time=104 
+Core[0]: process t15, service_time= 45,been on core for: 12 
+Core[1]: process t14, service_time= 43,been on core for: 2 
+Core[2]: process t7, service_time= 50,been on core for: 2 
+Core[3]: process t13, service_time= 34,been on core for: 4 
+Processing all 4 cores, current Computer time=105 
+Core[0]: process t15, service_time= 44,been on core for: 13 
+Core[1]: process t14, service_time= 42,been on core for: 3 
+Core[2]: process t7, service_time= 49,been on core for: 3 
+Core[3]: process t13, service_time= 33,been on core for: 5 
+Event: There has been an IO event on core 1
+Process[t14] at core 1 has been removed from core with remaining service_time=42
+Removed process from core 1 
+Process[t12] with service_time 29 has been added to core 1
+Event: There has been an IO event on core 2
+Process[t7] at core 2 has been removed from core with remaining service_time=49
+Removed process from core 2 
+Process[t9] with service_time 29 has been added to core 2
+Processing all 4 cores, current Computer time=106 
+Core[0]: process t15, service_time= 43,been on core for: 14 
+Core[1]: process t12, service_time= 28,been on core for: 1 
+Core[2]: process t9, service_time= 28,been on core for: 1 
+Core[3]: process t13, service_time= 32,been on core for: 6 
+Event: There has been an IO event on core 1
+Process[t12] at core 1 has been removed from core with remaining service_time=28
+Removed process from core 1 
+Process[t10] with service_time 55 has been added to core 1
+Processing all 4 cores, current Computer time=107 
+Core[0]: process t15, service_time= 42,been on core for: 15 
+Core[1]: process t10, service_time= 54,been on core for: 1 
+Core[2]: process t9, service_time= 27,been on core for: 2 
+Core[3]: process t13, service_time= 31,been on core for: 7 
+Processing all 4 cores, current Computer time=108 
+Core[0]: process t15, service_time= 41,been on core for: 16 
+Core[1]: process t10, service_time= 53,been on core for: 2 
+Core[2]: process t9, service_time= 26,been on core for: 3 
+Core[3]: process t13, service_time= 30,been on core for: 8 
+Processing all 4 cores, current Computer time=109 
+Core[0]: process t15, service_time= 40,been on core for: 17 
+Core[1]: process t10, service_time= 52,been on core for: 3 
+Core[2]: process t9, service_time= 25,been on core for: 4 
+Core[3]: process t13, service_time= 29,been on core for: 9 
+Event: There has been an IO event on core 2
+Process[t9] at core 2 has been removed from core with remaining service_time=25
+Removed process from core 2 
+Process[t11] with service_time 51 has been added to core 2
+Processing all 4 cores, current Computer time=110 
+Core[0]: process t15, service_time= 39,been on core for: 18 
+Core[1]: process t10, service_time= 51,been on core for: 4 
+Core[2]: process t11, service_time= 50,been on core for: 1 
+Core[3]: process t13, service_time= 28,been on core for: 10 
+Processing all 4 cores, current Computer time=111 
+Core[0]: process t15, service_time= 38,been on core for: 19 
+Core[1]: process t10, service_time= 50,been on core for: 5 
+Core[2]: process t11, service_time= 49,been on core for: 2 
+Core[3]: process t13, service_time= 27,been on core for: 11 
+Processing all 4 cores, current Computer time=112 
+Core[0]: process t15, service_time= 37,been on core for: 20 
+Core[1]: process t10, service_time= 49,been on core for: 6 
+Core[2]: process t11, service_time= 48,been on core for: 3 
+Core[3]: process t13, service_time= 26,been on core for: 12 
+Process[t15] at core 0 has been removed from core with remaining service_time=37
+Removed process from core 0 
+Process[t6] with service_time 1 has been added to core 0
+Event: There has been an IO event on core 2
+Process[t11] at core 2 has been removed from core with remaining service_time=48
+Removed process from core 2 
+Process[t14] with service_time 42 has been added to core 2
+Processing all 4 cores, current Computer time=113 
+Core[0]: process t6, service_time= 0,been on core for: 1 
+Core[1]: process t10, service_time= 48,been on core for: 7 
+Core[2]: process t14, service_time= 41,been on core for: 1 
+Core[3]: process t13, service_time= 25,been on core for: 13 
+Process[t6] at core 0 has been removed from core with remaining service_time=0
+Removed process from core 0 
+Process[t7] with service_time 49 has been added to core 0
+Processing all 4 cores, current Computer time=114 
+Core[0]: process t7, service_time= 48,been on core for: 1 
+Core[1]: process t10, service_time= 47,been on core for: 8 
+Core[2]: process t14, service_time= 40,been on core for: 2 
+Core[3]: process t13, service_time= 24,been on core for: 14 
+Event: There has been an IO event on core 3
+Process[t13] at core 3 has been removed from core with remaining service_time=24
+Removed process from core 3 
+Process[t12] with service_time 28 has been added to core 3
+Processing all 4 cores, current Computer time=115 
+Core[0]: process t7, service_time= 47,been on core for: 2 
+Core[1]: process t10, service_time= 46,been on core for: 9 
+Core[2]: process t14, service_time= 39,been on core for: 3 
+Core[3]: process t12, service_time= 27,been on core for: 1 
+Event: There has been an IO event on core 1
+Process[t10] at core 1 has been removed from core with remaining service_time=46
+Removed process from core 1 
+Process[t9] with service_time 25 has been added to core 1
+Processing all 4 cores, current Computer time=116 
+Core[0]: process t7, service_time= 46,been on core for: 3 
+Core[1]: process t9, service_time= 24,been on core for: 1 
+Core[2]: process t14, service_time= 38,been on core for: 4 
+Core[3]: process t12, service_time= 26,been on core for: 2 
+Event: There has been an IO event on core 3
+Process[t12] at core 3 has been removed from core with remaining service_time=26
+Removed process from core 3 
+Process[t15] with service_time 37 has been added to core 3
+Processing all 4 cores, current Computer time=117 
+Core[0]: process t7, service_time= 45,been on core for: 4 
+Core[1]: process t9, service_time= 23,been on core for: 2 
+Core[2]: process t14, service_time= 37,been on core for: 5 
+Core[3]: process t15, service_time= 36,been on core for: 1 
+Event: There has been an IO event on core 0
+Process[t7] at core 0 has been removed from core with remaining service_time=45
+Removed process from core 0 
+Process[t11] with service_time 48 has been added to core 0
+Processing all 4 cores, current Computer time=118 
+Core[0]: process t11, service_time= 47,been on core for: 1 
+Core[1]: process t9, service_time= 22,been on core for: 3 
+Core[2]: process t14, service_time= 36,been on core for: 6 
+Core[3]: process t15, service_time= 35,been on core for: 2 
+Event: There has been an IO event on core 3
+Process[t15] at core 3 has been removed from core with remaining service_time=35
+Removed process from core 3 
+Process[t13] with service_time 24 has been added to core 3
+Processing all 4 cores, current Computer time=119 
+Core[0]: process t11, service_time= 46,been on core for: 2 
+Core[1]: process t9, service_time= 21,been on core for: 4 
+Core[2]: process t14, service_time= 35,been on core for: 7 
+Core[3]: process t13, service_time= 23,been on core for: 1 
+Processing all 4 cores, current Computer time=120 
+Core[0]: process t11, service_time= 45,been on core for: 3 
+Core[1]: process t9, service_time= 20,been on core for: 5 
+Core[2]: process t14, service_time= 34,been on core for: 8 
+Core[3]: process t13, service_time= 22,been on core for: 2 
+Processing all 4 cores, current Computer time=121 
+Core[0]: process t11, service_time= 44,been on core for: 4 
+Core[1]: process t9, service_time= 19,been on core for: 6 
+Core[2]: process t14, service_time= 33,been on core for: 9 
+Core[3]: process t13, service_time= 21,been on core for: 3 
+Event: There has been an IO event on core 2
+Process[t14] at core 2 has been removed from core with remaining service_time=33
+Removed process from core 2 
+Process[t10] with service_time 46 has been added to core 2
+Processing all 4 cores, current Computer time=122 
+Core[0]: process t11, service_time= 43,been on core for: 5 
+Core[1]: process t9, service_time= 18,been on core for: 7 
+Core[2]: process t10, service_time= 45,been on core for: 1 
+Core[3]: process t13, service_time= 20,been on core for: 4 
+Processing all 4 cores, current Computer time=123 
+Core[0]: process t11, service_time= 42,been on core for: 6 
+Core[1]: process t9, service_time= 17,been on core for: 8 
+Core[2]: process t10, service_time= 44,been on core for: 2 
+Core[3]: process t13, service_time= 19,been on core for: 5 
+Processing all 4 cores, current Computer time=124 
+Core[0]: process t11, service_time= 41,been on core for: 7 
+Core[1]: process t9, service_time= 16,been on core for: 9 
+Core[2]: process t10, service_time= 43,been on core for: 3 
+Core[3]: process t13, service_time= 18,been on core for: 6 
+Event: There has been an IO event on core 0
+Process[t11] at core 0 has been removed from core with remaining service_time=41
+Removed process from core 0 
+Process[t12] with service_time 26 has been added to core 0
+Processing all 4 cores, current Computer time=125 
+Core[0]: process t12, service_time= 25,been on core for: 1 
+Core[1]: process t9, service_time= 15,been on core for: 10 
+Core[2]: process t10, service_time= 42,been on core for: 4 
+Core[3]: process t13, service_time= 17,been on core for: 7 
+Processing all 4 cores, current Computer time=126 
+Core[0]: process t12, service_time= 24,been on core for: 2 
+Core[1]: process t9, service_time= 14,been on core for: 11 
+Core[2]: process t10, service_time= 41,been on core for: 5 
+Core[3]: process t13, service_time= 16,been on core for: 8 
+Processing all 4 cores, current Computer time=127 
+Core[0]: process t12, service_time= 23,been on core for: 3 
+Core[1]: process t9, service_time= 13,been on core for: 12 
+Core[2]: process t10, service_time= 40,been on core for: 6 
+Core[3]: process t13, service_time= 15,been on core for: 9 
+Processing all 4 cores, current Computer time=128 
+Core[0]: process t12, service_time= 22,been on core for: 4 
+Core[1]: process t9, service_time= 12,been on core for: 13 
+Core[2]: process t10, service_time= 39,been on core for: 7 
+Core[3]: process t13, service_time= 14,been on core for: 10 
+Event: There has been an IO event on core 2
+Process[t10] at core 2 has been removed from core with remaining service_time=39
+Removed process from core 2 
+Process[t7] with service_time 45 has been added to core 2
+Processing all 4 cores, current Computer time=129 
+Core[0]: process t12, service_time= 21,been on core for: 5 
+Core[1]: process t9, service_time= 11,been on core for: 14 
+Core[2]: process t7, service_time= 44,been on core for: 1 
+Core[3]: process t13, service_time= 13,been on core for: 11 
+Event: There has been an IO event on core 3
+Process[t13] at core 3 has been removed from core with remaining service_time=13
+Removed process from core 3 
+Process[t15] with service_time 35 has been added to core 3
+Processing all 4 cores, current Computer time=130 
+Core[0]: process t12, service_time= 20,been on core for: 6 
+Core[1]: process t9, service_time= 10,been on core for: 15 
+Core[2]: process t7, service_time= 43,been on core for: 2 
+Core[3]: process t15, service_time= 34,been on core for: 1 
+Processing all 4 cores, current Computer time=131 
+Core[0]: process t12, service_time= 19,been on core for: 7 
+Core[1]: process t9, service_time= 9,been on core for: 16 
+Core[2]: process t7, service_time= 42,been on core for: 3 
+Core[3]: process t15, service_time= 33,been on core for: 2 
+Processing all 4 cores, current Computer time=132 
+Core[0]: process t12, service_time= 18,been on core for: 8 
+Core[1]: process t9, service_time= 8,been on core for: 17 
+Core[2]: process t7, service_time= 41,been on core for: 4 
+Core[3]: process t15, service_time= 32,been on core for: 3 
+Processing all 4 cores, current Computer time=133 
+Core[0]: process t12, service_time= 17,been on core for: 9 
+Core[1]: process t9, service_time= 7,been on core for: 18 
+Core[2]: process t7, service_time= 40,been on core for: 5 
+Core[3]: process t15, service_time= 31,been on core for: 4 
+Event: There has been an IO event on core 2
+Process[t7] at core 2 has been removed from core with remaining service_time=40
+Removed process from core 2 
+Process[t14] with service_time 33 has been added to core 2
+Processing all 4 cores, current Computer time=134 
+Core[0]: process t12, service_time= 16,been on core for: 10 
+Core[1]: process t9, service_time= 6,been on core for: 19 
+Core[2]: process t14, service_time= 32,been on core for: 1 
+Core[3]: process t15, service_time= 30,been on core for: 5 
+Processing all 4 cores, current Computer time=135 
+Core[0]: process t12, service_time= 15,been on core for: 11 
+Core[1]: process t9, service_time= 5,been on core for: 20 
+Core[2]: process t14, service_time= 31,been on core for: 2 
+Core[3]: process t15, service_time= 29,been on core for: 6 
+Process[t9] at core 1 has been removed from core with remaining service_time=5
+Removed process from core 1 
+Process[t11] with service_time 41 has been added to core 1
+Processing all 4 cores, current Computer time=136 
+Core[0]: process t12, service_time= 14,been on core for: 12 
+Core[1]: process t11, service_time= 40,been on core for: 1 
+Core[2]: process t14, service_time= 30,been on core for: 3 
+Core[3]: process t15, service_time= 28,been on core for: 7 
+Processing all 4 cores, current Computer time=137 
+Core[0]: process t12, service_time= 13,been on core for: 13 
+Core[1]: process t11, service_time= 39,been on core for: 2 
+Core[2]: process t14, service_time= 29,been on core for: 4 
+Core[3]: process t15, service_time= 27,been on core for: 8 
+Event: There has been an IO event on core 1
+Process[t11] at core 1 has been removed from core with remaining service_time=39
+Removed process from core 1 
+Process[t10] with service_time 39 has been added to core 1
+Event: There has been an IO event on core 3
+Process[t15] at core 3 has been removed from core with remaining service_time=27
+Removed process from core 3 
+Process[t13] with service_time 13 has been added to core 3
+Processing all 4 cores, current Computer time=138 
+Core[0]: process t12, service_time= 12,been on core for: 14 
+Core[1]: process t10, service_time= 38,been on core for: 1 
+Core[2]: process t14, service_time= 28,been on core for: 5 
+Core[3]: process t13, service_time= 12,been on core for: 1 
+Processing all 4 cores, current Computer time=139 
+Core[0]: process t12, service_time= 11,been on core for: 15 
+Core[1]: process t10, service_time= 37,been on core for: 2 
+Core[2]: process t14, service_time= 27,been on core for: 6 
+Core[3]: process t13, service_time= 11,been on core for: 2 
+Event: There has been an IO event on core 3
+Process[t13] at core 3 has been removed from core with remaining service_time=11
+Removed process from core 3 
+Process[t7] with service_time 40 has been added to core 3
+Processing all 4 cores, current Computer time=140 
+Core[0]: process t12, service_time= 10,been on core for: 16 
+Core[1]: process t10, service_time= 36,been on core for: 3 
+Core[2]: process t14, service_time= 26,been on core for: 7 
+Core[3]: process t7, service_time= 39,been on core for: 1 
+Event: There has been an IO event on core 3
+Process[t7] at core 3 has been removed from core with remaining service_time=39
+Removed process from core 3 
+Process[t9] with service_time 5 has been added to core 3
+Processing all 4 cores, current Computer time=141 
+Core[0]: process t12, service_time= 9,been on core for: 17 
+Core[1]: process t10, service_time= 35,been on core for: 4 
+Core[2]: process t14, service_time= 25,been on core for: 8 
+Core[3]: process t9, service_time= 4,been on core for: 1 
+Processing all 4 cores, current Computer time=142 
+Core[0]: process t12, service_time= 8,been on core for: 18 
+Core[1]: process t10, service_time= 34,been on core for: 5 
+Core[2]: process t14, service_time= 24,been on core for: 9 
+Core[3]: process t9, service_time= 3,been on core for: 2 
+Event: There has been an IO event on core 0
+Process[t12] at core 0 has been removed from core with remaining service_time=8
+Removed process from core 0 
+Process[t11] with service_time 39 has been added to core 0
+Event: There has been an IO event on core 1
+Process[t10] at core 1 has been removed from core with remaining service_time=34
+Removed process from core 1 
+Process[t15] with service_time 27 has been added to core 1
+Processing all 4 cores, current Computer time=143 
+Core[0]: process t11, service_time= 38,been on core for: 1 
+Core[1]: process t15, service_time= 26,been on core for: 1 
+Core[2]: process t14, service_time= 23,been on core for: 10 
+Core[3]: process t9, service_time= 2,been on core for: 3 
+Event: There has been an IO event on core 0
+Process[t11] at core 0 has been removed from core with remaining service_time=38
+Removed process from core 0 
+Process[t13] with service_time 11 has been added to core 0
+Processing all 4 cores, current Computer time=144 
+Core[0]: process t13, service_time= 10,been on core for: 1 
+Core[1]: process t15, service_time= 25,been on core for: 2 
+Core[2]: process t14, service_time= 22,been on core for: 11 
+Core[3]: process t9, service_time= 1,been on core for: 4 
+Event: There has been an IO event on core 3
+Process[t9] at core 3 has been removed from core with remaining service_time=1
+Removed process from core 3 
+Process[t7] with service_time 39 has been added to core 3
+Processing all 4 cores, current Computer time=145 
+Core[0]: process t13, service_time= 9,been on core for: 2 
+Core[1]: process t15, service_time= 24,been on core for: 3 
+Core[2]: process t14, service_time= 21,been on core for: 12 
+Core[3]: process t7, service_time= 38,been on core for: 1 
+Event: There has been an IO event on core 0
+Process[t13] at core 0 has been removed from core with remaining service_time=9
+Removed process from core 0 
+Process[t12] with service_time 8 has been added to core 0
+Processing all 4 cores, current Computer time=146 
+Core[0]: process t12, service_time= 7,been on core for: 1 
+Core[1]: process t15, service_time= 23,been on core for: 4 
+Core[2]: process t14, service_time= 20,been on core for: 13 
+Core[3]: process t7, service_time= 37,been on core for: 2 
+Event: There has been an IO event on core 3
+Process[t7] at core 3 has been removed from core with remaining service_time=37
+Removed process from core 3 
+Process[t10] with service_time 34 has been added to core 3
+Processing all 4 cores, current Computer time=147 
+Core[0]: process t12, service_time= 6,been on core for: 2 
+Core[1]: process t15, service_time= 22,been on core for: 5 
+Core[2]: process t14, service_time= 19,been on core for: 14 
+Core[3]: process t10, service_time= 33,been on core for: 1 
+Processing all 4 cores, current Computer time=148 
+Core[0]: process t12, service_time= 5,been on core for: 3 
+Core[1]: process t15, service_time= 21,been on core for: 6 
+Core[2]: process t14, service_time= 18,been on core for: 15 
+Core[3]: process t10, service_time= 32,been on core for: 2 
+Event: There has been an IO event on core 0
+Process[t12] at core 0 has been removed from core with remaining service_time=5
+Removed process from core 0 
+Process[t11] with service_time 38 has been added to core 0
+Processing all 4 cores, current Computer time=149 
+Core[0]: process t11, service_time= 37,been on core for: 1 
+Core[1]: process t15, service_time= 20,been on core for: 7 
+Core[2]: process t14, service_time= 17,been on core for: 16 
+Core[3]: process t10, service_time= 31,been on core for: 3 
+Processing all 4 cores, current Computer time=150 
+Core[0]: process t11, service_time= 36,been on core for: 2 
+Core[1]: process t15, service_time= 19,been on core for: 8 
+Core[2]: process t14, service_time= 16,been on core for: 17 
+Core[3]: process t10, service_time= 30,been on core for: 4 
+Event: There has been an IO event on core 2
+Process[t14] at core 2 has been removed from core with remaining service_time=16
+Removed process from core 2 
+Process[t9] with service_time 1 has been added to core 2
+Processing all 4 cores, current Computer time=151 
+Core[0]: process t11, service_time= 35,been on core for: 3 
+Core[1]: process t15, service_time= 18,been on core for: 9 
+Core[2]: process t9, service_time= 0,been on core for: 1 
+Core[3]: process t10, service_time= 29,been on core for: 5 
+Process[t9] at core 2 has been removed from core with remaining service_time=0
+Removed process from core 2 
+Process[t13] with service_time 9 has been added to core 2
+Processing all 4 cores, current Computer time=152 
+Core[0]: process t11, service_time= 34,been on core for: 4 
+Core[1]: process t15, service_time= 17,been on core for: 10 
+Core[2]: process t13, service_time= 8,been on core for: 1 
+Core[3]: process t10, service_time= 28,been on core for: 6 
+Processing all 4 cores, current Computer time=153 
+Core[0]: process t11, service_time= 33,been on core for: 5 
+Core[1]: process t15, service_time= 16,been on core for: 11 
+Core[2]: process t13, service_time= 7,been on core for: 2 
+Core[3]: process t10, service_time= 27,been on core for: 7 
+Processing all 4 cores, current Computer time=154 
+Core[0]: process t11, service_time= 32,been on core for: 6 
+Core[1]: process t15, service_time= 15,been on core for: 12 
+Core[2]: process t13, service_time= 6,been on core for: 3 
+Core[3]: process t10, service_time= 26,been on core for: 8 
+Processing all 4 cores, current Computer time=155 
+Core[0]: process t11, service_time= 31,been on core for: 7 
+Core[1]: process t15, service_time= 14,been on core for: 13 
+Core[2]: process t13, service_time= 5,been on core for: 4 
+Core[3]: process t10, service_time= 25,been on core for: 9 
+Processing all 4 cores, current Computer time=156 
+Core[0]: process t11, service_time= 30,been on core for: 8 
+Core[1]: process t15, service_time= 13,been on core for: 14 
+Core[2]: process t13, service_time= 4,been on core for: 5 
+Core[3]: process t10, service_time= 24,been on core for: 10 
+Event: There has been an IO event on core 2
+Process[t13] at core 2 has been removed from core with remaining service_time=4
+Removed process from core 2 
+Process[t7] with service_time 37 has been added to core 2
+Processing all 4 cores, current Computer time=157 
+Core[0]: process t11, service_time= 29,been on core for: 9 
+Core[1]: process t15, service_time= 12,been on core for: 15 
+Core[2]: process t7, service_time= 36,been on core for: 1 
+Core[3]: process t10, service_time= 23,been on core for: 11 
+Processing all 4 cores, current Computer time=158 
+Core[0]: process t11, service_time= 28,been on core for: 10 
+Core[1]: process t15, service_time= 11,been on core for: 16 
+Core[2]: process t7, service_time= 35,been on core for: 2 
+Core[3]: process t10, service_time= 22,been on core for: 12 
+Processing all 4 cores, current Computer time=159 
+Core[0]: process t11, service_time= 27,been on core for: 11 
+Core[1]: process t15, service_time= 10,been on core for: 17 
+Core[2]: process t7, service_time= 34,been on core for: 3 
+Core[3]: process t10, service_time= 21,been on core for: 13 
+Processing all 4 cores, current Computer time=160 
+Core[0]: process t11, service_time= 26,been on core for: 12 
+Core[1]: process t15, service_time= 9,been on core for: 18 
+Core[2]: process t7, service_time= 33,been on core for: 4 
+Core[3]: process t10, service_time= 20,been on core for: 14 
+Processing all 4 cores, current Computer time=161 
+Core[0]: process t11, service_time= 25,been on core for: 13 
+Core[1]: process t15, service_time= 8,been on core for: 19 
+Core[2]: process t7, service_time= 32,been on core for: 5 
+Core[3]: process t10, service_time= 19,been on core for: 15 
+Event: There has been an IO event on core 0
+Process[t11] at core 0 has been removed from core with remaining service_time=25
+Removed process from core 0 
+Process[t12] with service_time 5 has been added to core 0
+Event: There has been an IO event on core 2
+Process[t7] at core 2 has been removed from core with remaining service_time=32
+Removed process from core 2 
+Process[t14] with service_time 16 has been added to core 2
+Event: There has been an IO event on core 3
+Process[t10] at core 3 has been removed from core with remaining service_time=19
+Removed process from core 3 
+Process[t13] with service_time 4 has been added to core 3
+Processing all 4 cores, current Computer time=162 
+Core[0]: process t12, service_time= 4,been on core for: 1 
+Core[1]: process t15, service_time= 7,been on core for: 20 
+Core[2]: process t14, service_time= 15,been on core for: 1 
+Core[3]: process t13, service_time= 3,been on core for: 1 
+Process[t15] at core 1 has been removed from core with remaining service_time=7
+Removed process from core 1 
+Process[t11] with service_time 25 has been added to core 1
+Processing all 4 cores, current Computer time=163 
+Core[0]: process t12, service_time= 3,been on core for: 2 
+Core[1]: process t11, service_time= 24,been on core for: 1 
+Core[2]: process t14, service_time= 14,been on core for: 2 
+Core[3]: process t13, service_time= 2,been on core for: 2 
+Processing all 4 cores, current Computer time=164 
+Core[0]: process t12, service_time= 2,been on core for: 3 
+Core[1]: process t11, service_time= 23,been on core for: 2 
+Core[2]: process t14, service_time= 13,been on core for: 3 
+Core[3]: process t13, service_time= 1,been on core for: 3 
+Processing all 4 cores, current Computer time=165 
+Core[0]: process t12, service_time= 1,been on core for: 4 
+Core[1]: process t11, service_time= 22,been on core for: 3 
+Core[2]: process t14, service_time= 12,been on core for: 4 
+Core[3]: process t13, service_time= 0,been on core for: 4 
+Event: There has been an IO event on core 3
+Process[t13] at core 3 has been removed from core with remaining service_time=0
+Removed process from core 3 
+Process[t7] with service_time 32 has been added to core 3
+Processing all 4 cores, current Computer time=166 
+Core[0]: process t12, service_time= 0,been on core for: 5 
+Core[1]: process t11, service_time= 21,been on core for: 4 
+Core[2]: process t14, service_time= 11,been on core for: 5 
+Core[3]: process t7, service_time= 31,been on core for: 1 
+Process[t12] at core 0 has been removed from core with remaining service_time=0
+Removed process from core 0 
+Process[t10] with service_time 19 has been added to core 0
+Event: There has been an IO event on core 2
+Process[t14] at core 2 has been removed from core with remaining service_time=11
+Removed process from core 2 
+Process[t15] with service_time 7 has been added to core 2
+Processing all 4 cores, current Computer time=167 
+Core[0]: process t10, service_time= 18,been on core for: 1 
+Core[1]: process t11, service_time= 20,been on core for: 5 
+Core[2]: process t15, service_time= 6,been on core for: 1 
+Core[3]: process t7, service_time= 30,been on core for: 2 
+Processing all 4 cores, current Computer time=168 
+Core[0]: process t10, service_time= 17,been on core for: 2 
+Core[1]: process t11, service_time= 19,been on core for: 6 
+Core[2]: process t15, service_time= 5,been on core for: 2 
+Core[3]: process t7, service_time= 29,been on core for: 3 
+Event: There has been an IO event on core 3
+Process[t7] at core 3 has been removed from core with remaining service_time=29
+Removed process from core 3 
+Process[t14] with service_time 11 has been added to core 3
+Processing all 4 cores, current Computer time=169 
+Core[0]: process t10, service_time= 16,been on core for: 3 
+Core[1]: process t11, service_time= 18,been on core for: 7 
+Core[2]: process t15, service_time= 4,been on core for: 3 
+Core[3]: process t14, service_time= 10,been on core for: 1 
+Processing all 4 cores, current Computer time=170 
+Core[0]: process t10, service_time= 15,been on core for: 4 
+Core[1]: process t11, service_time= 17,been on core for: 8 
+Core[2]: process t15, service_time= 3,been on core for: 4 
+Core[3]: process t14, service_time= 9,been on core for: 2 
+Event: There has been an IO event on core 2
+Process[t15] at core 2 has been removed from core with remaining service_time=3
+Removed process from core 2 
+Process[t7] with service_time 29 has been added to core 2
+Processing all 4 cores, current Computer time=171 
+Core[0]: process t10, service_time= 14,been on core for: 5 
+Core[1]: process t11, service_time= 16,been on core for: 9 
+Core[2]: process t7, service_time= 28,been on core for: 1 
+Core[3]: process t14, service_time= 8,been on core for: 3 
+Event: There has been an IO event on core 0
+Process[t10] at core 0 has been removed from core with remaining service_time=14
+Removed process from core 0 
+Process[t15] with service_time 3 has been added to core 0
+Processing all 4 cores, current Computer time=172 
+Core[0]: process t15, service_time= 2,been on core for: 1 
+Core[1]: process t11, service_time= 15,been on core for: 10 
+Core[2]: process t7, service_time= 27,been on core for: 2 
+Core[3]: process t14, service_time= 7,been on core for: 4 
+Processing all 4 cores, current Computer time=173 
+Core[0]: process t15, service_time= 1,been on core for: 2 
+Core[1]: process t11, service_time= 14,been on core for: 11 
+Core[2]: process t7, service_time= 26,been on core for: 3 
+Core[3]: process t14, service_time= 6,been on core for: 5 
+Processing all 4 cores, current Computer time=174 
+Core[0]: process t15, service_time= 0,been on core for: 3 
+Core[1]: process t11, service_time= 13,been on core for: 12 
+Core[2]: process t7, service_time= 25,been on core for: 4 
+Core[3]: process t14, service_time= 5,been on core for: 6 
+Event: There has been an IO event on core 0
+Process[t15] at core 0 has been removed from core with remaining service_time=0
+Removed process from core 0 
+Process[t10] with service_time 14 has been added to core 0
+Event: There has been an IO event on core 2
+Process[t7] at core 2 has been removed from core with remaining service_time=25
+Removed process from core 2 
+Event: There has been an IO event on core 3
+Process[t14] at core 3 has been removed from core with remaining service_time=5
+Removed process from core 3 
+Processing all 4 cores, current Computer time=175 
+Core[0]: process t10, service_time= 13,been on core for: 1 
+Core[1]: process t11, service_time= 12,been on core for: 13 
+Processing all 4 cores, current Computer time=176 
+Core[0]: process t10, service_time= 12,been on core for: 2 
+Core[1]: process t11, service_time= 11,been on core for: 14 
+Processing all 4 cores, current Computer time=177 
+Core[0]: process t10, service_time= 11,been on core for: 3 
+Core[1]: process t11, service_time= 10,been on core for: 15 
+Processing all 4 cores, current Computer time=178 
+Core[0]: process t10, service_time= 10,been on core for: 4 
+Core[1]: process t11, service_time= 9,been on core for: 16 
+Processing all 4 cores, current Computer time=179 
+Core[0]: process t10, service_time= 9,been on core for: 5 
+Core[1]: process t11, service_time= 8,been on core for: 17 
+Processing all 4 cores, current Computer time=180 
+Core[0]: process t10, service_time= 8,been on core for: 6 
+Core[1]: process t11, service_time= 7,been on core for: 18 
+Processing all 4 cores, current Computer time=181 
+Core[0]: process t10, service_time= 7,been on core for: 7 
+Core[1]: process t11, service_time= 6,been on core for: 19 
+Processing all 4 cores, current Computer time=182 
+Core[0]: process t10, service_time= 6,been on core for: 8 
+Core[1]: process t11, service_time= 5,been on core for: 20 
+Process[t11] at core 1 has been removed from core with remaining service_time=5
+Removed process from core 1 
+Processing all 4 cores, current Computer time=183 
+Core[0]: process t10, service_time= 5,been on core for: 9 
+Processing all 4 cores, current Computer time=184 
+Core[0]: process t10, service_time= 4,been on core for: 10 
+Processing all 4 cores, current Computer time=185 
+Core[0]: process t10, service_time= 3,been on core for: 11 
+Processing all 4 cores, current Computer time=186 
+Core[0]: process t10, service_time= 2,been on core for: 12 
+Processing all 4 cores, current Computer time=187 
+Core[0]: process t10, service_time= 1,been on core for: 13 
+Processing all 4 cores, current Computer time=188 
+Core[0]: process t10, service_time= 0,been on core for: 14 
+Process[t10] at core 0 has been removed from core with remaining service_time=0
+Removed process from core 0 
+Processing all 4 cores, current Computer time=189 
+	*******Done*******
