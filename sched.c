@@ -418,7 +418,22 @@ int main()
 
 		run_one_step();
 	}
+	
 
+
+	//cleanup
+
+printf("\t*******Part 3*******\n");
+	init();
+	read_file();
+	computer.time = 0;
+
+	/*
+	for (int i = 0; i < 4; i++) {
+		computer.cores[i].p->io = 0;
+	}
+
+*/
 	
 	
 	
@@ -432,6 +447,96 @@ int main()
 	 *  until all processes finish. Remember to clean up again at the end!
 	 */
 
+//Part 3 has a problem where the process is being loaded with io=32. Thus, it is getting hanged up and no processes are actually running.
+//I suspect this to be an issue when e move from the penidng_head to the head queue, but I have to investigate further
+
+
+
+	//While there are still processes in the pending queue (Have not arrived yet) or the computer is still busy, run this loop
+	//On the cores: 1 is busy, 0 is waiting
+	
+	while ((pending_head != NULL) || computer.cores[0].busy == 1 || computer.cores[1].busy == 1 || computer.cores[2].busy == 1 || computer.cores[3].busy == 1) {
+		
+		//Look at the upcoming processes' queue and check if the arrival time has passed. If not, continue on.
+		//If the process time has arrived, remove it from the arrival queue and add it to the process queue
+		while (pending_head != NULL && pending_head -> p -> arrival_time <= computer.time) {
+			
+			//printf("Computer Time is: %ld\n", computer.time);
+			printf("Found Process: %s\n",pending_head -> p -> process_ID);
+			proc_num++;
+			
+			//Add the process to the upcoming process queue
+			//If this is the first entry into the process queue
+			if (head == NULL) {
+				head = pending_head;
+				tail = pending_head;
+				pending_head = pending_head -> next;
+				
+				head -> next = NULL;
+			} else {
+				//Otherwise, if it is not the first entry, simply add to the tail
+				tail -> next = pending_head;
+				tail = pending_head;
+				
+				
+				//If the head can move forward, move forward.
+				//Otherwise, set the queue to null, and then leave the checking loop: there is no more to look for
+				//Also, without the break, we'll get seg faults... Seg faults everywhere...
+				if (pending_head -> next != NULL) {
+					pending_head = pending_head -> next;
+					tail -> next = NULL;
+				} else {
+					pending_head = NULL;
+					break;
+					
+				}
+			} 			
+		}
+
+		//Once we have added everything required at the current time, let's work on the round robin
+	
+		//Check the quantum time of the process. 
+
+
+		for (int i = 0; i < 4; i++) {
+
+			
+			//if there exists a currently running process, check the quantum time of the process. If it is above our set quantum, remove the process.
+			//Also check if the process itself is finished. If it is finished, remove the process.
+			//Additionally, check if there has been an IO event. If there has been , remove the process.
+			if (computer.cores[i].busy == 1 && (computer.cores[i].proc_time >= quantum || computer.cores[i].p->service_time == 0 || computer.cores[i].p->io == 1)) {
+				
+				if (computer.cores[i].p->io == 1) {
+					computer.cores[i].p->io = 0;
+					printf("Event: There has been an IO event on core %d\n", i);
+				}
+				
+				remove_proc(i);
+				printf("Removed process from core %d \n", i);
+			}
+
+			//Once we have cleared everything, check to see if it is busy. If it is not busy, then add the process from head
+			if (computer.cores[i].busy == 0) {
+				if (head != NULL) {
+					//Add the process from the head, then remove it off the process list
+					sched_proc(head->p, i);
+					if (head -> next != NULL) {
+						struct node* tmp = head;
+						head = head -> next;
+
+						free(tmp);
+					} else {
+						head = NULL;
+					}
+					
+				}
+			}
+
+		}
+
+
+		run_one_step_p3();
+	}
 		
 	
 	
